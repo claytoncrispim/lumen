@@ -1,3 +1,14 @@
 from django.contrib import admin
+from .models import Location, SafetyIndex
 
-# Register your models here.
+
+@admin.register(Location)
+class LocationAdmin(admin.ModelAdmin):
+	list_display = ("iata_code", "city_name", "country_name")
+	search_fields = ("iata_code", "city_name", "country_name")
+
+
+@admin.register(SafetyIndex)
+class SafetyIndexAdmin(admin.ModelAdmin):
+	list_display = ("location", "score", "last_updated")
+	search_fields = ("location__iata_code", "location__city_name", "location__country_name")
