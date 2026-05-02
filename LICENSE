@@ -1,0 +1,42 @@
+LUMEN PROPRIETARY LICENSE
+Version 1.0
+
+Copyright (c) 2026 Lumen Project Owner. All rights reserved.
+
+1. Ownership
+The software, source code, architecture, documentation, data models, designs, and related materials in this repository (the "Software") are proprietary to the copyright owner and are protected by copyright, trade secret, patent, and other intellectual property laws.
+
+2. No Open-Source License
+No open-source license is granted for this repository. Except as expressly set forth in a separate written agreement signed by the copyright owner, no permission is granted to use, copy, modify, merge, publish, distribute, sublicense, host, provide as a service, sell, or create derivative works of the Software.
+
+3. No Patent License
+No express or implied license is granted under any patent rights owned or controlled by the copyright owner. All patent rights are reserved.
+
+4. No Trademark License
+No right or license is granted to use any name, logo, mark, trade dress, or branding associated with the Software or project.
+
+5. Restrictions
+Without prior written permission from the copyright owner, you must not:
+- copy or reproduce the Software;
+- modify, adapt, translate, or create derivative works;
+- distribute, transfer, lease, rent, sell, sublicense, or otherwise make the Software available to third parties;
+- use the Software to provide hosted or managed services;
+- reverse engineer, decompile, disassemble, or attempt to discover source code of any non-source components, except where such restriction is prohibited by applicable law.
+
+6. Third-Party Components
+This repository may include or depend on third-party components licensed under their own terms. Those third-party components remain subject to their respective licenses, and this license does not reduce rights granted by applicable third-party licenses.
+
+7. Termination
+Any unauthorized use automatically terminates any rights that may have been granted, and all use must cease immediately.
+
+8. Disclaimer of Warranties
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+9. Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT OWNER SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA, OR GOODWILL, ARISING FROM OR RELATED TO THE SOFTWARE OR THIS LICENSE.
+
+10. Governing Law
+This license is governed by the laws selected by the copyright owner in an applicable written agreement. If no such agreement exists, the copyright owner may elect the governing law and venue in any enforcement action.
+
+11. Contact
+For commercial licensing or other permissions, contact the copyright owner.
