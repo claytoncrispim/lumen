@@ -1,0 +1,73 @@
+# Project-specific
+/.architecture
+
+# Dependencies
+node_modules/
+
+# Build and distribution output (React/TypeScript)
+dist/
+dist-ssr/
+build/
+out/
+coverage/
+*.tsbuildinfo
+.vite/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+
+# Packaging / Python build artifacts
+.eggs/
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+htmlcov/
+
+# Django
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+local_settings.py
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
