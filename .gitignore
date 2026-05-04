@@ -1,5 +1,6 @@
 # Project-specific
 /.architecture
+/local_files
 
 # Dependencies
 node_modules/
