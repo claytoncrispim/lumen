@@ -46,6 +46,17 @@
   {
     "model": "engine.safetyindex",
     "fields": {
+      "location": "ACE",
+      "score": 13,
+      "last_updated": "2026-02-26",
+      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
+      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
+      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
       "location": "ADD",
       "score": -9,
       "last_updated": "2026-02-26",
@@ -739,6 +750,17 @@
   {
     "model": "engine.safetyindex",
     "fields": {
+      "location": "FUE",
+      "score": 13,
+      "last_updated": "2026-02-26",
+      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
+      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
+      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
       "location": "GBE",
       "score": -3,
       "last_updated": "2026-02-26",
@@ -1108,6 +1130,17 @@
       "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
       "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
       "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "location": "LPA",
+      "score": 13,
+      "last_updated": "2026-02-26",
+      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
+      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
+      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
     }
   },
   {
@@ -1509,6 +1542,17 @@
   {
     "model": "engine.safetyindex",
     "fields": {
+      "location": "PVH",
+      "score": 12,
+      "last_updated": "2026-02-26",
+      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
+      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
+      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
       "location": "RAK",
       "score": -14,
       "last_updated": "2026-02-26",
@@ -1663,6 +1707,17 @@
   {
     "model": "engine.safetyindex",
     "fields": {
+      "location": "SMA",
+      "score": 12,
+      "last_updated": "2026-02-26",
+      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
+      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
+      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
       "location": "SOF",
       "score": -6,
       "last_updated": "2026-02-26",
@@ -1713,6 +1768,28 @@
       "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
       "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
       "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "location": "TFN",
+      "score": 13,
+      "last_updated": "2026-02-26",
+      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
+      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
+      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "location": "TFS",
+      "score": 13,
+      "last_updated": "2026-02-26",
+      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
+      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
+      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
     }
   },
   {

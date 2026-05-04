@@ -37,6 +37,15 @@
   },
   {
     "model": "engine.location",
+    "pk": "ACE",
+    "fields": {
+      "airport_name": "Lanzarote Airport",
+      "city_name": "Arrecife",
+      "country_name": "Spain"
+    }
+  },
+  {
+    "model": "engine.location",
     "pk": "ADD",
     "fields": {
       "airport_name": "Addis Ababa Bole International Airport",
@@ -865,6 +874,15 @@
   },
   {
     "model": "engine.location",
+    "pk": "FUE",
+    "fields": {
+      "airport_name": "Fuerteventura Airport",
+      "city_name": "Puerto del Rosario",
+      "country_name": "Spain"
+    }
+  },
+  {
+    "model": "engine.location",
     "pk": "GBE",
     "fields": {
       "airport_name": "Sir Seretse Khama International Airport",
@@ -1311,6 +1329,15 @@
       "airport_name": "Murtala Muhammed International Airport",
       "city_name": "Lagos",
       "country_name": "Nigeria"
+    }
+  },
+  {
+    "model": "engine.location",
+    "pk": "LPA",
+    "fields": {
+      "airport_name": "Gran Canaria Airport",
+      "city_name": "Las Palmas",
+      "country_name": "Spain"
     }
   },
   {
@@ -1801,6 +1828,15 @@
   },
   {
     "model": "engine.location",
+    "pk": "PVH",
+    "fields": {
+      "airport_name": "Terceira Island Airport",
+      "city_name": "Praia da Vitória",
+      "country_name": "Portugal"
+    }
+  },
+  {
+    "model": "engine.location",
     "pk": "RAI",
     "fields": {
       "airport_name": "Nelson Mandela International Airport",
@@ -1999,6 +2035,15 @@
   },
   {
     "model": "engine.location",
+    "pk": "SMA",
+    "fields": {
+      "airport_name": "Santa Maria Airport",
+      "city_name": "Santa Maria",
+      "country_name": "Portugal"
+    }
+  },
+  {
+    "model": "engine.location",
     "pk": "SOF",
     "fields": {
       "airport_name": "Sofia Airport",
@@ -2094,6 +2139,24 @@
       "airport_name": "Tbilisi International Airport",
       "city_name": "Tbilisi",
       "country_name": "Georgia"
+    }
+  },
+  {
+    "model": "engine.location",
+    "pk": "TFN",
+    "fields": {
+      "airport_name": "Tenerife North Airport",
+      "city_name": "Tenerife",
+      "country_name": "Spain"
+    }
+  },
+  {
+    "model": "engine.location",
+    "pk": "TFS",
+    "fields": {
+      "airport_name": "Tenerife South Airport",
+      "city_name": "Tenerife",
+      "country_name": "Spain"
     }
   },
   {
