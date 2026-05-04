@@ -3,6 +3,7 @@ from django.db import models
 class Location(models.Model):
     """DB 1: Local IATA Database"""
     iata_code = models.CharField(max_length=3, unique=True, primary_key=True)
+    airport_name = models.CharField(max_length=150, blank=True, default='')
     city_name = models.CharField(max_length=100)
     country_name = models.CharField(max_length=100)
     
