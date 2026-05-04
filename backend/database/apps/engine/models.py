@@ -12,7 +12,7 @@ class Location(models.Model):
 class SafetyIndex(models.Model):
     """DB 2: Spartacus-based LGBTQ+ ratings"""
     location = models.OneToOneField(Location, on_delete=models.CASCADE) # One-to-One Relationship: Each location has one safety index
-    score = models.IntegerField(default=0)
+    score = models.SmallIntegerField(default=0)
     last_updated = models.DateField(auto_now=True)
     
     # These fields will feed the 'Safety Pill' bullet points
