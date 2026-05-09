@@ -2,183 +2,8 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "AAL",
-      "score": 9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ABJ",
-      "score": -10,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ABV",
-      "score": -17,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ACC",
-      "score": -12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ACE",
-      "score": 13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ADD",
-      "score": -9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ADL",
-      "score": 10,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "AGP",
-      "score": 13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "AKL",
-      "score": 11,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ALG",
-      "score": -14,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "AMS",
-      "score": 9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ANR",
-      "score": 12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ARN",
-      "score": 9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ASU",
-      "score": -10,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ATH",
-      "score": 9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ATL",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "AUH",
+      "country_code": "AE",
+      "country_name": "United Arab Emirates",
       "score": -18,
       "last_updated": "2026-02-26",
       "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
@@ -189,8 +14,9 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "BAH",
-      "score": -10,
+      "country_code": "AO",
+      "country_name": "Angola",
+      "score": -7,
       "last_updated": "2026-02-26",
       "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
       "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
@@ -200,161 +26,8 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "BCN",
-      "score": 13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BEG",
-      "score": -3,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BER",
-      "score": 12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BEY",
-      "score": -10,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BGW",
-      "score": -18,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BIO",
-      "score": 13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BJL",
-      "score": -11,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BKK",
-      "score": 3,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BLR",
-      "score": 7,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BNE",
-      "score": 10,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BOG",
-      "score": 9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BOM",
-      "score": 7,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BOS",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BRU",
-      "score": 12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BSB",
+      "country_code": "AR",
+      "country_name": "Argentina",
       "score": 6,
       "last_updated": "2026-02-26",
       "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
@@ -365,8 +38,9 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "BSL",
-      "score": 11,
+      "country_code": "AT",
+      "country_name": "Austria",
+      "score": 9,
       "last_updated": "2026-02-26",
       "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
       "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
@@ -376,62 +50,8 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "BTS",
-      "score": -4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "BUD",
-      "score": -9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "CAI",
-      "score": -16,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "CAN",
-      "score": -5,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "CCU",
-      "score": 7,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "CDG",
+      "country_code": "AU",
+      "country_name": "Australia",
       "score": 10,
       "last_updated": "2026-02-26",
       "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
@@ -442,29 +62,32 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "CGK",
-      "score": -12,
+      "country_code": "BD",
+      "country_name": "Bangladesh",
+      "score": -10,
       "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
     }
   },
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "CHC",
-      "score": 11,
+      "country_code": "BE",
+      "country_name": "Belgium",
+      "score": 12,
       "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
+      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
+      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
+      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
     }
   },
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "CMN",
+      "country_code": "BF",
+      "country_name": "Burkina Faso",
       "score": -14,
       "last_updated": "2026-02-26",
       "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
@@ -475,1052 +98,8 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "CNF",
-      "score": 6,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "CNX",
-      "score": 3,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "CPH",
-      "score": 9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "CPT",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "CUN",
-      "score": 6,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DAC",
-      "score": -10,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DAM",
-      "score": -15,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DAR",
-      "score": -17,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DCA",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DEL",
-      "score": 7,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DEN",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DFW",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DKR",
-      "score": -16,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DOH",
-      "score": -17,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DPS",
-      "score": -12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DUR",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DUS",
-      "score": 12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "DXB",
-      "score": -18,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "EBB",
-      "score": -19,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "EWR",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "EZE",
-      "score": 6,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "FCO",
-      "score": -1,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "FIH",
-      "score": -11,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "FNA",
-      "score": -11,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "FRA",
-      "score": 12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "FUE",
-      "score": 13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "GBE",
-      "score": -3,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "GEO",
-      "score": -11,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "GIG",
-      "score": 6,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "GRU",
-      "score": 6,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "GUA",
-      "score": -10,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "GVA",
-      "score": 11,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "HAN",
-      "score": -1,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "HAV",
-      "score": 9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "HEL",
-      "score": 9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "HKG",
-      "score": -5,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "HND",
-      "score": -1,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "HRE",
-      "score": -16,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "IAH",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "IBZ",
-      "score": 13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ISB",
-      "score": -9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "IST",
-      "score": -11,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "JED",
-      "score": -22,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "JFK",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "JNB",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "KGL",
-      "score": -10,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "KHI",
-      "score": -9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "KIN",
-      "score": -11,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "KIX",
-      "score": -1,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "KUL",
-      "score": -16,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "KWI",
-      "score": -16,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LAD",
-      "score": -7,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LAX",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LGW",
-      "score": 6,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LHR",
-      "score": 6,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LIM",
-      "score": -7,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LIS",
-      "score": 12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LJU",
-      "score": -5,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LLW",
-      "score": -13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LOS",
-      "score": -17,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LPA",
-      "score": 13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LPB",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LTN",
-      "score": 6,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LUN",
-      "score": -13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "LUX",
-      "score": 9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MAA",
-      "score": 7,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MAD",
-      "score": 13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MBA",
-      "score": -12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MBJ",
-      "score": -11,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MCO",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MEL",
-      "score": 10,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MEX",
-      "score": 6,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MIA",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MLE",
-      "score": -12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MLW",
-      "score": -12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MNL",
-      "score": -8,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MPM",
-      "score": -7,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MSP",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MUC",
-      "score": 12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "MXP",
-      "score": -1,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "NAP",
-      "score": -1,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "NBO",
-      "score": -12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "NRT",
-      "score": -1,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "OPO",
-      "score": 12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ORD",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "ORY",
-      "score": 10,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "OTP",
-      "score": -2,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "OUA",
-      "score": -14,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "PBM",
-      "score": -2,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "PEK",
-      "score": -5,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "PHL",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "PHX",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "PMI",
-      "score": 13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "PNH",
-      "score": -4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "PRG",
-      "score": 3,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "PTY",
+      "country_code": "BG",
+      "country_name": "Bulgaria",
       "score": -6,
       "last_updated": "2026-02-26",
       "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
@@ -1531,8 +110,9 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "PVG",
-      "score": -5,
+      "country_code": "BH",
+      "country_name": "Bahrain",
+      "score": -10,
       "last_updated": "2026-02-26",
       "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
       "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
@@ -1542,95 +122,8 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "PVH",
-      "score": 12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "RAK",
-      "score": -14,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "RIX",
-      "score": -1,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "RUH",
-      "score": -22,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SAL",
-      "score": -7,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SAP",
-      "score": -7,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SAW",
-      "score": -11,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SCL",
-      "score": 10,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SEA",
+      "country_code": "BO",
+      "country_name": "Bolivia",
       "score": 4,
       "last_updated": "2026-02-26",
       "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
@@ -1641,95 +134,8 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "SFO",
-      "score": 4,
-      "last_updated": "2026-02-26",
-      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
-      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
-      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SGN",
-      "score": -1,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SHA",
-      "score": -5,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SIN",
-      "score": -3,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SJO",
-      "score": 5,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SKG",
-      "score": 9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SMA",
-      "score": 12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SOF",
-      "score": -6,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "STN",
+      "country_code": "BR",
+      "country_name": "Brazil",
       "score": 6,
       "last_updated": "2026-02-26",
       "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
@@ -1740,150 +146,8 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "SUB",
-      "score": -12,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SYD",
-      "score": 10,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "SZG",
-      "score": 9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "TFN",
-      "score": 13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "TFS",
-      "score": 13,
-      "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "TLL",
-      "score": 5,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "TLV",
-      "score": 5,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "TUN",
-      "score": -14,
-      "last_updated": "2026-02-26",
-      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
-      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
-      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "UIO",
-      "score": 5,
-      "last_updated": "2026-02-26",
-      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
-      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
-      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "VCE",
-      "score": -1,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "VIE",
-      "score": 9,
-      "last_updated": "2026-02-26",
-      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
-      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
-      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "VNO",
-      "score": -1,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "WAW",
-      "score": -1,
-      "last_updated": "2026-02-26",
-      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
-      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
-      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
-    }
-  },
-  {
-    "model": "engine.safetyindex",
-    "fields": {
-      "location": "WDH",
+      "country_code": "BW",
+      "country_name": "Botswana",
       "score": -3,
       "last_updated": "2026-02-26",
       "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
@@ -1894,7 +158,32 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "WLG",
+      "country_code": "CA",
+      "country_name": "Canada",
+      "score": 12,
+      "last_updated": "2026-02-26",
+      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
+      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
+      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "CD",
+      "country_name": "DR Congo",
+      "score": -11,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "CH",
+      "country_name": "Switzerland",
       "score": 11,
       "last_updated": "2026-02-26",
       "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
@@ -1905,7 +194,92 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "YEG",
+      "country_code": "CI",
+      "country_name": "Ivory Coast",
+      "score": -10,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "CL",
+      "country_name": "Chile",
+      "score": 10,
+      "last_updated": "2026-02-26",
+      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
+      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
+      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "CN",
+      "country_name": "China",
+      "score": -5,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "CO",
+      "country_name": "Colombia",
+      "score": 9,
+      "last_updated": "2026-02-26",
+      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
+      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
+      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "CR",
+      "country_name": "Costa Rica",
+      "score": 5,
+      "last_updated": "2026-02-26",
+      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
+      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
+      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "CU",
+      "country_name": "Cuba",
+      "score": 9,
+      "last_updated": "2026-02-26",
+      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
+      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
+      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "CZ",
+      "country_name": "Czech Republic",
+      "score": 3,
+      "last_updated": "2026-02-26",
+      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
+      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
+      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "DE",
+      "country_name": "Germany",
       "score": 12,
       "last_updated": "2026-02-26",
       "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
@@ -1916,8 +290,69 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "YUL",
-      "score": 12,
+      "country_code": "DK",
+      "country_name": "Denmark",
+      "score": 9,
+      "last_updated": "2026-02-26",
+      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
+      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
+      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "DZ",
+      "country_name": "Algeria",
+      "score": -14,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "EC",
+      "country_name": "Ecuador",
+      "score": 5,
+      "last_updated": "2026-02-26",
+      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
+      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
+      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "EE",
+      "country_name": "Estonia",
+      "score": 5,
+      "last_updated": "2026-02-26",
+      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
+      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
+      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "EG",
+      "country_name": "Egypt",
+      "score": -16,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "ES",
+      "country_name": "Spain",
+      "score": 13,
       "last_updated": "2026-02-26",
       "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
       "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
@@ -1927,29 +362,140 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "YVR",
-      "score": 12,
+      "country_code": "ET",
+      "country_name": "Ethiopia",
+      "score": -9,
       "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
     }
   },
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "YYZ",
-      "score": 12,
+      "country_code": "FI",
+      "country_name": "Finland",
+      "score": 9,
       "last_updated": "2026-02-26",
-      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
-      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
-      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
+      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
+      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
+      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
     }
   },
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "ZAG",
+      "country_code": "FR",
+      "country_name": "France",
+      "score": 10,
+      "last_updated": "2026-02-26",
+      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
+      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
+      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "GB",
+      "country_name": "United Kingdom",
+      "score": 6,
+      "last_updated": "2026-02-26",
+      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
+      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
+      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "GH",
+      "country_name": "Ghana",
+      "score": -12,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "GM",
+      "country_name": "Gambia",
+      "score": -11,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "GR",
+      "country_name": "Greece",
+      "score": 9,
+      "last_updated": "2026-02-26",
+      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
+      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
+      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "GT",
+      "country_name": "Guatemala",
+      "score": -10,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "GY",
+      "country_name": "Guyana",
+      "score": -11,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "HK",
+      "country_name": "Hong Kong",
+      "score": -5,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "HN",
+      "country_name": "Honduras",
+      "score": -7,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "HR",
+      "country_name": "Croatia",
       "score": 2,
       "last_updated": "2026-02-26",
       "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
@@ -1960,7 +506,284 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "ZNZ",
+      "country_code": "HU",
+      "country_name": "Hungary",
+      "score": -9,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "ID",
+      "country_name": "Indonesia",
+      "score": -12,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "IL",
+      "country_name": "Israel",
+      "score": 5,
+      "last_updated": "2026-02-26",
+      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
+      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
+      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "IN",
+      "country_name": "India",
+      "score": 7,
+      "last_updated": "2026-02-26",
+      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
+      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
+      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "IQ",
+      "country_name": "Iraq",
+      "score": -18,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "IT",
+      "country_name": "Italy",
+      "score": -1,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "JM",
+      "country_name": "Jamaica",
+      "score": -11,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "JP",
+      "country_name": "Japan",
+      "score": -1,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "KE",
+      "country_name": "Kenya",
+      "score": -12,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "KH",
+      "country_name": "Cambodia",
+      "score": -4,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "KW",
+      "country_name": "Kuwait",
+      "score": -16,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "LB",
+      "country_name": "Lebanon",
+      "score": -10,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "LR",
+      "country_name": "Liberia",
+      "score": -12,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "LT",
+      "country_name": "Lithuania",
+      "score": -1,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "LU",
+      "country_name": "Luxembourg",
+      "score": 9,
+      "last_updated": "2026-02-26",
+      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
+      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
+      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "LV",
+      "country_name": "Latvia",
+      "score": -1,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "MA",
+      "country_name": "Morocco",
+      "score": -14,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "MV",
+      "country_name": "Maldives",
+      "score": -12,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "MW",
+      "country_name": "Malawi",
+      "score": -13,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "MX",
+      "country_name": "Mexico",
+      "score": 6,
+      "last_updated": "2026-02-26",
+      "legal_status": "Basic legal protections with some form of partnership recognition or anti-discrimination laws, though gaps may exist.",
+      "social_vibe": "Emerging or established community depending on region. Urban centers generally more accepting than rural areas.",
+      "travel_alerts": "Exercise standard caution. Some areas may be less welcoming. Avoid public displays of affection outside tourist zones."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "MY",
+      "country_name": "Malaysia",
+      "score": -16,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "MZ",
+      "country_name": "Mozambique",
+      "score": -7,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "NA",
+      "country_name": "Namibia",
+      "score": -3,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "NG",
+      "country_name": "Nigeria",
       "score": -17,
       "last_updated": "2026-02-26",
       "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
@@ -1971,12 +794,397 @@
   {
     "model": "engine.safetyindex",
     "fields": {
-      "location": "ZRH",
+      "country_code": "NL",
+      "country_name": "Netherlands",
+      "score": 9,
+      "last_updated": "2026-02-26",
+      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
+      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
+      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "NZ",
+      "country_name": "New Zealand",
       "score": 11,
       "last_updated": "2026-02-26",
       "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
       "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
       "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "PA",
+      "country_name": "Panama",
+      "score": -6,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "PE",
+      "country_name": "Peru",
+      "score": -7,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "PH",
+      "country_name": "Philippines",
+      "score": -8,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "PK",
+      "country_name": "Pakistan",
+      "score": -9,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "PL",
+      "country_name": "Poland",
+      "score": -1,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "PT",
+      "country_name": "Portugal",
+      "score": 12,
+      "last_updated": "2026-02-26",
+      "legal_status": "Full marriage equality, comprehensive anti-discrimination protections, and strong legal framework for transgender individuals.",
+      "social_vibe": "Vibrant and welcoming LGBTQ+ community with established infrastructure, Pride celebrations, and strong social acceptance.",
+      "travel_alerts": "Generally safe destination with excellent legal protections. Standard travel precautions apply."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "PY",
+      "country_name": "Paraguay",
+      "score": -10,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "QA",
+      "country_name": "Qatar",
+      "score": -17,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "RO",
+      "country_name": "Romania",
+      "score": -2,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "RS",
+      "country_name": "Serbia",
+      "score": -3,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "RW",
+      "country_name": "Rwanda",
+      "score": -10,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "SA",
+      "country_name": "Saudi Arabia",
+      "score": -22,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "SE",
+      "country_name": "Sweden",
+      "score": 9,
+      "last_updated": "2026-02-26",
+      "legal_status": "Solid legal protections including marriage or civil partnerships, anti-discrimination laws, and transgender recognition.",
+      "social_vibe": "Active LGBTQ+ community with established venues and organizations. Generally positive social atmosphere in urban areas.",
+      "travel_alerts": "Safe destination overall. Some regional variation in acceptance. Research specific areas beforehand."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "score": -3,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "SI",
+      "country_name": "Slovenia",
+      "score": -5,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "SK",
+      "country_name": "Slovakia",
+      "score": -4,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "SL",
+      "country_name": "Sierra Leone",
+      "score": -11,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "SN",
+      "country_name": "Senegal",
+      "score": -16,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "SR",
+      "country_name": "Suriname",
+      "score": -2,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "SV",
+      "country_name": "El Salvador",
+      "score": -7,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "SY",
+      "country_name": "Syria",
+      "score": -15,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "TH",
+      "country_name": "Thailand",
+      "score": 3,
+      "last_updated": "2026-02-26",
+      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
+      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
+      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "TN",
+      "country_name": "Tunisia",
+      "score": -14,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "TR",
+      "country_name": "Turkey",
+      "score": -11,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "TZ",
+      "country_name": "Tanzania",
+      "score": -17,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "UG",
+      "country_name": "Uganda",
+      "score": -19,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "US",
+      "country_name": "United States",
+      "score": 4,
+      "last_updated": "2026-02-26",
+      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
+      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
+      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "VN",
+      "country_name": "Vietnam",
+      "score": -1,
+      "last_updated": "2026-02-26",
+      "legal_status": "Criminalization of same-sex relations with potential legal penalties. Transgender recognition limited or non-existent.",
+      "social_vibe": "Underground or very limited community visibility due to legal restrictions. Social hostility common.",
+      "travel_alerts": "High-risk destination. Extreme caution necessary. Avoid any public expression of sexual orientation or gender identity. Review laws before travel."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "ZA",
+      "country_name": "South Africa",
+      "score": 4,
+      "last_updated": "2026-02-26",
+      "legal_status": "Limited legal protections. No marriage equality or partnership recognition in most/all jurisdictions.",
+      "social_vibe": "LGBTQ+ presence varies significantly by location. Major cities may have community presence but legal status uncertain.",
+      "travel_alerts": "Significant caution advised. Avoid public displays of affection. Research current political climate. Homosexuality may be illegal."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "ZM",
+      "country_name": "Zambia",
+      "score": -13,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
+    }
+  },
+  {
+    "model": "engine.safetyindex",
+    "fields": {
+      "country_code": "ZW",
+      "country_name": "Zimbabwe",
+      "score": -16,
+      "last_updated": "2026-02-26",
+      "legal_status": "Severe criminalization including death penalty provisions. Extreme legal and social hostility.",
+      "social_vibe": "No visible community presence due to state persecution. Severe social and legal consequences.",
+      "travel_alerts": "EXTREME CAUTION: Death penalty may apply to same-sex relations. Do not travel if queer identity would be known. Seek current embassy warnings."
     }
   }
 ]

@@ -5,7 +5,8 @@
     "fields": {
       "airport_name": "Aalborg Airport",
       "city_name": "Aalborg",
-      "country_name": "Denmark"
+      "country_name": "Denmark",
+      "country_code": "DK"
     }
   },
   {
@@ -14,7 +15,8 @@
     "fields": {
       "airport_name": "Felix Houphouet Boigny International Airport",
       "city_name": "Abidjan",
-      "country_name": "Ivory Coast"
+      "country_name": "Ivory Coast",
+      "country_code": "CI"
     }
   },
   {
@@ -23,7 +25,8 @@
     "fields": {
       "airport_name": "Nnamdi Azikiwe International Airport",
       "city_name": "Abuja",
-      "country_name": "Nigeria"
+      "country_name": "Nigeria",
+      "country_code": "NG"
     }
   },
   {
@@ -32,7 +35,8 @@
     "fields": {
       "airport_name": "Kotoka International Airport",
       "city_name": "Accra",
-      "country_name": "Ghana"
+      "country_name": "Ghana",
+      "country_code": "GH"
     }
   },
   {
@@ -41,7 +45,8 @@
     "fields": {
       "airport_name": "Lanzarote Airport",
       "city_name": "Arrecife",
-      "country_name": "Spain"
+      "country_name": "Spain",
+      "country_code": "ES"
     }
   },
   {
@@ -50,7 +55,8 @@
     "fields": {
       "airport_name": "Addis Ababa Bole International Airport",
       "city_name": "Addis Ababa",
-      "country_name": "Ethiopia"
+      "country_name": "Ethiopia",
+      "country_code": "ET"
     }
   },
   {
@@ -59,7 +65,8 @@
     "fields": {
       "airport_name": "Aden International Airport",
       "city_name": "Aden",
-      "country_name": "Yemen"
+      "country_name": "Yemen",
+      "country_code": "YE"
     }
   },
   {
@@ -68,7 +75,8 @@
     "fields": {
       "airport_name": "Adelaide Airport",
       "city_name": "Adelaide",
-      "country_name": "Australia"
+      "country_name": "Australia",
+      "country_code": "AU"
     }
   },
   {
@@ -77,7 +85,8 @@
     "fields": {
       "airport_name": "Malaga Costa del Sol Airport",
       "city_name": "Malaga",
-      "country_name": "Spain"
+      "country_name": "Spain",
+      "country_code": "ES"
     }
   },
   {
@@ -86,7 +95,8 @@
     "fields": {
       "airport_name": "Auckland Airport",
       "city_name": "Auckland",
-      "country_name": "New Zealand"
+      "country_name": "New Zealand",
+      "country_code": "NZ"
     }
   },
   {
@@ -95,7 +105,8 @@
     "fields": {
       "airport_name": "Houari Boumediene Airport",
       "city_name": "Algiers",
-      "country_name": "Algeria"
+      "country_name": "Algeria",
+      "country_code": "DZ"
     }
   },
   {
@@ -104,7 +115,8 @@
     "fields": {
       "airport_name": "Amsterdam Airport Schiphol",
       "city_name": "Amsterdam",
-      "country_name": "Netherlands"
+      "country_name": "Netherlands",
+      "country_code": "NL"
     }
   },
   {
@@ -113,7 +125,8 @@
     "fields": {
       "airport_name": "Antwerp International Airport",
       "city_name": "Antwerp",
-      "country_name": "Belgium"
+      "country_name": "Belgium",
+      "country_code": "BE"
     }
   },
   {
@@ -122,7 +135,8 @@
     "fields": {
       "airport_name": "V.C. Bird International Airport",
       "city_name": "Antigua",
-      "country_name": "Antigua and Barbuda"
+      "country_name": "Antigua and Barbuda",
+      "country_code": "AG"
     }
   },
   {
@@ -131,7 +145,8 @@
     "fields": {
       "airport_name": "Stockholm Arlanda Airport",
       "city_name": "Stockholm",
-      "country_name": "Sweden"
+      "country_name": "Sweden",
+      "country_code": "SE"
     }
   },
   {
@@ -140,7 +155,8 @@
     "fields": {
       "airport_name": "Ashgabat International Airport",
       "city_name": "Ashgabat",
-      "country_name": "Turkmenistan"
+      "country_name": "Turkmenistan",
+      "country_code": "TM"
     }
   },
   {
@@ -149,7 +165,8 @@
     "fields": {
       "airport_name": "Asmara International Airport",
       "city_name": "Asmara",
-      "country_name": "Eritrea"
+      "country_name": "Eritrea",
+      "country_code": "ER"
     }
   },
   {
@@ -158,7 +175,8 @@
     "fields": {
       "airport_name": "Silvio Pettirossi International Airport",
       "city_name": "Asuncion",
-      "country_name": "Paraguay"
+      "country_name": "Paraguay",
+      "country_code": "PY"
     }
   },
   {
@@ -167,7 +185,8 @@
     "fields": {
       "airport_name": "Athens Eleftherios Venizelos International Airport",
       "city_name": "Athens",
-      "country_name": "Greece"
+      "country_name": "Greece",
+      "country_code": "GR"
     }
   },
   {
@@ -176,7 +195,8 @@
     "fields": {
       "airport_name": "Hartsfield-Jackson Atlanta International Airport",
       "city_name": "Atlanta",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -185,7 +205,8 @@
     "fields": {
       "airport_name": "Queen Beatrix International Airport",
       "city_name": "Oranjestad",
-      "country_name": "Aruba"
+      "country_name": "Aruba",
+      "country_code": "AW"
     }
   },
   {
@@ -194,7 +215,8 @@
     "fields": {
       "airport_name": "Abu Dhabi International Airport",
       "city_name": "Abu Dhabi",
-      "country_name": "United Arab Emirates"
+      "country_name": "United Arab Emirates",
+      "country_code": "AE"
     }
   },
   {
@@ -203,7 +225,8 @@
     "fields": {
       "airport_name": "Austin-Bergstrom International Airport",
       "city_name": "Austin",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -212,7 +235,8 @@
     "fields": {
       "airport_name": "Bahrain International Airport",
       "city_name": "Manama",
-      "country_name": "Bahrain"
+      "country_name": "Bahrain",
+      "country_code": "BH"
     }
   },
   {
@@ -221,7 +245,8 @@
     "fields": {
       "airport_name": "Barcelona El Prat Airport",
       "city_name": "Barcelona",
-      "country_name": "Spain"
+      "country_name": "Spain",
+      "country_code": "ES"
     }
   },
   {
@@ -230,7 +255,8 @@
     "fields": {
       "airport_name": "Belgrade Nikola Tesla Airport",
       "city_name": "Belgrade",
-      "country_name": "Serbia"
+      "country_name": "Serbia",
+      "country_code": "RS"
     }
   },
   {
@@ -239,7 +265,8 @@
     "fields": {
       "airport_name": "Berlin Brandenburg Airport",
       "city_name": "Berlin",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     }
   },
   {
@@ -248,7 +275,8 @@
     "fields": {
       "airport_name": "Beirut Rafic Hariri International Airport",
       "city_name": "Beirut",
-      "country_name": "Lebanon"
+      "country_name": "Lebanon",
+      "country_code": "LB"
     }
   },
   {
@@ -257,7 +285,8 @@
     "fields": {
       "airport_name": "Grantley Adams International Airport",
       "city_name": "Bridgetown",
-      "country_name": "Barbados"
+      "country_name": "Barbados",
+      "country_code": "BB"
     }
   },
   {
@@ -266,7 +295,8 @@
     "fields": {
       "airport_name": "Bergen Airport Flesland",
       "city_name": "Bergen",
-      "country_name": "Norway"
+      "country_name": "Norway",
+      "country_code": "NO"
     }
   },
   {
@@ -275,7 +305,8 @@
     "fields": {
       "airport_name": "Baghdad International Airport",
       "city_name": "Baghdad",
-      "country_name": "Iraq"
+      "country_name": "Iraq",
+      "country_code": "IQ"
     }
   },
   {
@@ -284,7 +315,8 @@
     "fields": {
       "airport_name": "Birmingham Airport",
       "city_name": "Birmingham",
-      "country_name": "United Kingdom"
+      "country_name": "United Kingdom",
+      "country_code": "GB"
     }
   },
   {
@@ -293,7 +325,8 @@
     "fields": {
       "airport_name": "Bilbao Airport",
       "city_name": "Bilbao",
-      "country_name": "Spain"
+      "country_name": "Spain",
+      "country_code": "ES"
     }
   },
   {
@@ -302,7 +335,8 @@
     "fields": {
       "airport_name": "Banjul International Airport",
       "city_name": "Banjul",
-      "country_name": "Gambia"
+      "country_name": "Gambia",
+      "country_code": "GM"
     }
   },
   {
@@ -311,7 +345,8 @@
     "fields": {
       "airport_name": "Suvarnabhumi Airport",
       "city_name": "Bangkok",
-      "country_name": "Thailand"
+      "country_name": "Thailand",
+      "country_code": "TH"
     }
   },
   {
@@ -320,7 +355,8 @@
     "fields": {
       "airport_name": "Bologna Guglielmo Marconi Airport",
       "city_name": "Bologna",
-      "country_name": "Italy"
+      "country_name": "Italy",
+      "country_code": "IT"
     }
   },
   {
@@ -329,7 +365,8 @@
     "fields": {
       "airport_name": "Kempegowda International Airport",
       "city_name": "Bangalore",
-      "country_name": "India"
+      "country_name": "India",
+      "country_code": "IN"
     }
   },
   {
@@ -338,7 +375,8 @@
     "fields": {
       "airport_name": "Brisbane Airport",
       "city_name": "Brisbane",
-      "country_name": "Australia"
+      "country_name": "Australia",
+      "country_code": "AU"
     }
   },
   {
@@ -347,7 +385,8 @@
     "fields": {
       "airport_name": "Bordeaux-Merignac Airport",
       "city_name": "Bordeaux",
-      "country_name": "France"
+      "country_name": "France",
+      "country_code": "FR"
     }
   },
   {
@@ -356,7 +395,8 @@
     "fields": {
       "airport_name": "El Dorado International Airport",
       "city_name": "Bogota",
-      "country_name": "Colombia"
+      "country_name": "Colombia",
+      "country_code": "CO"
     }
   },
   {
@@ -365,7 +405,8 @@
     "fields": {
       "airport_name": "Chhatrapati Shivaji Maharaj International Airport",
       "city_name": "Mumbai",
-      "country_name": "India"
+      "country_name": "India",
+      "country_code": "IN"
     }
   },
   {
@@ -374,7 +415,8 @@
     "fields": {
       "airport_name": "Logan International Airport",
       "city_name": "Boston",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -383,7 +425,8 @@
     "fields": {
       "airport_name": "Bremen Airport",
       "city_name": "Bremen",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     }
   },
   {
@@ -392,7 +435,8 @@
     "fields": {
       "airport_name": "Bristol Airport",
       "city_name": "Bristol",
-      "country_name": "United Kingdom"
+      "country_name": "United Kingdom",
+      "country_code": "GB"
     }
   },
   {
@@ -401,7 +445,8 @@
     "fields": {
       "airport_name": "Brussels Airport",
       "city_name": "Brussels",
-      "country_name": "Belgium"
+      "country_name": "Belgium",
+      "country_code": "BE"
     }
   },
   {
@@ -410,7 +455,8 @@
     "fields": {
       "airport_name": "Presidente Juscelino Kubitschek International Airport",
       "city_name": "Brasilia",
-      "country_name": "Brazil"
+      "country_name": "Brazil",
+      "country_code": "BR"
     }
   },
   {
@@ -419,7 +465,8 @@
     "fields": {
       "airport_name": "EuroAirport Basel Mulhouse Freiburg",
       "city_name": "Basel",
-      "country_name": "Switzerland"
+      "country_name": "Switzerland",
+      "country_code": "CH"
     }
   },
   {
@@ -428,7 +475,8 @@
     "fields": {
       "airport_name": "Milan Rastislav Stefanik Airport",
       "city_name": "Bratislava",
-      "country_name": "Slovakia"
+      "country_name": "Slovakia",
+      "country_code": "SK"
     }
   },
   {
@@ -437,7 +485,8 @@
     "fields": {
       "airport_name": "Budapest Ferenc Liszt International Airport",
       "city_name": "Budapest",
-      "country_name": "Hungary"
+      "country_name": "Hungary",
+      "country_code": "HU"
     }
   },
   {
@@ -446,7 +495,8 @@
     "fields": {
       "airport_name": "Cairo International Airport",
       "city_name": "Cairo",
-      "country_name": "Egypt"
+      "country_name": "Egypt",
+      "country_code": "EG"
     }
   },
   {
@@ -455,7 +505,8 @@
     "fields": {
       "airport_name": "Guangzhou Baiyun International Airport",
       "city_name": "Guangzhou",
-      "country_name": "China"
+      "country_name": "China",
+      "country_code": "CN"
     }
   },
   {
@@ -464,7 +515,8 @@
     "fields": {
       "airport_name": "Canberra Airport",
       "city_name": "Canberra",
-      "country_name": "Australia"
+      "country_name": "Australia",
+      "country_code": "AU"
     }
   },
   {
@@ -473,7 +525,8 @@
     "fields": {
       "airport_name": "Netaji Subhas Chandra Bose International Airport",
       "city_name": "Kolkata",
-      "country_name": "India"
+      "country_name": "India",
+      "country_code": "IN"
     }
   },
   {
@@ -482,7 +535,8 @@
     "fields": {
       "airport_name": "Paris Charles de Gaulle Airport",
       "city_name": "Paris",
-      "country_name": "France"
+      "country_name": "France",
+      "country_code": "FR"
     }
   },
   {
@@ -491,7 +545,8 @@
     "fields": {
       "airport_name": "Soekarno-Hatta International Airport",
       "city_name": "Jakarta",
-      "country_name": "Indonesia"
+      "country_name": "Indonesia",
+      "country_code": "ID"
     }
   },
   {
@@ -500,7 +555,8 @@
     "fields": {
       "airport_name": "Cologne Bonn Airport",
       "city_name": "Cologne",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     }
   },
   {
@@ -509,7 +565,8 @@
     "fields": {
       "airport_name": "Christchurch International Airport",
       "city_name": "Christchurch",
-      "country_name": "New Zealand"
+      "country_name": "New Zealand",
+      "country_code": "NZ"
     }
   },
   {
@@ -518,7 +575,8 @@
     "fields": {
       "airport_name": "Conakry International Airport",
       "city_name": "Conakry",
-      "country_name": "Guinea"
+      "country_name": "Guinea",
+      "country_code": "GN"
     }
   },
   {
@@ -527,7 +585,8 @@
     "fields": {
       "airport_name": "Charlotte Douglas International Airport",
       "city_name": "Charlotte",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -536,7 +595,8 @@
     "fields": {
       "airport_name": "Mohammed V International Airport",
       "city_name": "Casablanca",
-      "country_name": "Morocco"
+      "country_name": "Morocco",
+      "country_code": "MA"
     }
   },
   {
@@ -545,7 +605,8 @@
     "fields": {
       "airport_name": "Tancredo Neves International Airport",
       "city_name": "Belo Horizonte",
-      "country_name": "Brazil"
+      "country_name": "Brazil",
+      "country_code": "BR"
     }
   },
   {
@@ -554,7 +615,8 @@
     "fields": {
       "airport_name": "Chiang Mai International Airport",
       "city_name": "Chiang Mai",
-      "country_name": "Thailand"
+      "country_name": "Thailand",
+      "country_code": "TH"
     }
   },
   {
@@ -563,7 +625,8 @@
     "fields": {
       "airport_name": "Cadjehoun Airport",
       "city_name": "Cotonou",
-      "country_name": "Benin"
+      "country_name": "Benin",
+      "country_code": "BJ"
     }
   },
   {
@@ -572,7 +635,8 @@
     "fields": {
       "airport_name": "Copenhagen Airport",
       "city_name": "Copenhagen",
-      "country_name": "Denmark"
+      "country_name": "Denmark",
+      "country_code": "DK"
     }
   },
   {
@@ -581,7 +645,8 @@
     "fields": {
       "airport_name": "Cape Town International Airport",
       "city_name": "Cape Town",
-      "country_name": "South Africa"
+      "country_name": "South Africa",
+      "country_code": "ZA"
     }
   },
   {
@@ -590,7 +655,8 @@
     "fields": {
       "airport_name": "Cancun International Airport",
       "city_name": "Cancun",
-      "country_name": "Mexico"
+      "country_name": "Mexico",
+      "country_code": "MX"
     }
   },
   {
@@ -599,7 +665,8 @@
     "fields": {
       "airport_name": "Hato International Airport",
       "city_name": "Willemstad",
-      "country_name": "Curacao"
+      "country_name": "Curacao",
+      "country_code": "CW"
     }
   },
   {
@@ -608,7 +675,8 @@
     "fields": {
       "airport_name": "Afonso Pena International Airport",
       "city_name": "Curitiba",
-      "country_name": "Brazil"
+      "country_name": "Brazil",
+      "country_code": "BR"
     }
   },
   {
@@ -617,7 +685,8 @@
     "fields": {
       "airport_name": "Hazrat Shahjalal International Airport",
       "city_name": "Dhaka",
-      "country_name": "Bangladesh"
+      "country_name": "Bangladesh",
+      "country_code": "BD"
     }
   },
   {
@@ -626,7 +695,8 @@
     "fields": {
       "airport_name": "Damascus International Airport",
       "city_name": "Damascus",
-      "country_name": "Syria"
+      "country_name": "Syria",
+      "country_code": "SY"
     }
   },
   {
@@ -635,7 +705,8 @@
     "fields": {
       "airport_name": "Julius Nyerere International Airport",
       "city_name": "Dar es Salaam",
-      "country_name": "Tanzania"
+      "country_name": "Tanzania",
+      "country_code": "TZ"
     }
   },
   {
@@ -644,7 +715,8 @@
     "fields": {
       "airport_name": "Ronald Reagan Washington National Airport",
       "city_name": "Washington D.C.",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -653,7 +725,8 @@
     "fields": {
       "airport_name": "Indira Gandhi International Airport",
       "city_name": "Delhi",
-      "country_name": "India"
+      "country_name": "India",
+      "country_code": "IN"
     }
   },
   {
@@ -662,7 +735,8 @@
     "fields": {
       "airport_name": "Denver International Airport",
       "city_name": "Denver",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -671,7 +745,8 @@
     "fields": {
       "airport_name": "Dallas/Fort Worth International Airport",
       "city_name": "Dallas",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -680,7 +755,8 @@
     "fields": {
       "airport_name": "Blaise Diagne International Airport",
       "city_name": "Dakar",
-      "country_name": "Senegal"
+      "country_name": "Senegal",
+      "country_code": "SN"
     }
   },
   {
@@ -689,7 +765,8 @@
     "fields": {
       "airport_name": "Douala International Airport",
       "city_name": "Douala",
-      "country_name": "Cameroon"
+      "country_name": "Cameroon",
+      "country_code": "CM"
     }
   },
   {
@@ -698,7 +775,8 @@
     "fields": {
       "airport_name": "Moscow Domodedovo Airport",
       "city_name": "Moscow",
-      "country_name": "Russia"
+      "country_name": "Russia",
+      "country_code": "RU"
     }
   },
   {
@@ -707,7 +785,8 @@
     "fields": {
       "airport_name": "Hamad International Airport",
       "city_name": "Doha",
-      "country_name": "Qatar"
+      "country_name": "Qatar",
+      "country_code": "QA"
     }
   },
   {
@@ -716,7 +795,8 @@
     "fields": {
       "airport_name": "Ngurah Rai International Airport",
       "city_name": "Bali",
-      "country_name": "Indonesia"
+      "country_name": "Indonesia",
+      "country_code": "ID"
     }
   },
   {
@@ -725,7 +805,8 @@
     "fields": {
       "airport_name": "Dresden Airport",
       "city_name": "Dresden",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     }
   },
   {
@@ -734,7 +815,8 @@
     "fields": {
       "airport_name": "Dublin Airport",
       "city_name": "Dublin",
-      "country_name": "Ireland"
+      "country_name": "Ireland",
+      "country_code": "IE"
     }
   },
   {
@@ -743,7 +825,8 @@
     "fields": {
       "airport_name": "King Shaka International Airport",
       "city_name": "Durban",
-      "country_name": "South Africa"
+      "country_name": "South Africa",
+      "country_code": "ZA"
     }
   },
   {
@@ -752,7 +835,8 @@
     "fields": {
       "airport_name": "Dusseldorf Airport",
       "city_name": "Dusseldorf",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     }
   },
   {
@@ -761,7 +845,8 @@
     "fields": {
       "airport_name": "Dubai International Airport",
       "city_name": "Dubai",
-      "country_name": "United Arab Emirates"
+      "country_name": "United Arab Emirates",
+      "country_code": "AE"
     }
   },
   {
@@ -770,7 +855,8 @@
     "fields": {
       "airport_name": "Entebbe International Airport",
       "city_name": "Entebbe",
-      "country_name": "Uganda"
+      "country_name": "Uganda",
+      "country_code": "UG"
     }
   },
   {
@@ -779,7 +865,8 @@
     "fields": {
       "airport_name": "Edinburgh Airport",
       "city_name": "Edinburgh",
-      "country_name": "United Kingdom"
+      "country_name": "United Kingdom",
+      "country_code": "GB"
     }
   },
   {
@@ -788,7 +875,8 @@
     "fields": {
       "airport_name": "Esenboga International Airport",
       "city_name": "Ankara",
-      "country_name": "Turkey"
+      "country_name": "Turkey",
+      "country_code": "TR"
     }
   },
   {
@@ -797,7 +885,8 @@
     "fields": {
       "airport_name": "Newark Liberty International Airport",
       "city_name": "Newark",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -806,7 +895,8 @@
     "fields": {
       "airport_name": "Ministro Pistarini International Airport",
       "city_name": "Buenos Aires",
-      "country_name": "Argentina"
+      "country_name": "Argentina",
+      "country_code": "AR"
     }
   },
   {
@@ -815,7 +905,8 @@
     "fields": {
       "airport_name": "Faro Airport",
       "city_name": "Faro",
-      "country_name": "Portugal"
+      "country_name": "Portugal",
+      "country_code": "PT"
     }
   },
   {
@@ -824,7 +915,8 @@
     "fields": {
       "airport_name": "Leonardo da Vinci International Airport",
       "city_name": "Rome",
-      "country_name": "Italy"
+      "country_name": "Italy",
+      "country_code": "IT"
     }
   },
   {
@@ -833,7 +925,8 @@
     "fields": {
       "airport_name": "N'djili Airport",
       "city_name": "Kinshasa",
-      "country_name": "DR Congo"
+      "country_name": "DR Congo",
+      "country_code": "CD"
     }
   },
   {
@@ -842,7 +935,8 @@
     "fields": {
       "airport_name": "Fort Lauderdale-Hollywood International Airport",
       "city_name": "Fort Lauderdale",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -851,7 +945,8 @@
     "fields": {
       "airport_name": "Lungi International Airport",
       "city_name": "Freetown",
-      "country_name": "Sierra Leone"
+      "country_name": "Sierra Leone",
+      "country_code": "SL"
     }
   },
   {
@@ -860,7 +955,8 @@
     "fields": {
       "airport_name": "Pyongyang Sunan International Airport",
       "city_name": "Pyongyang",
-      "country_name": "North Korea"
+      "country_name": "North Korea",
+      "country_code": "KP"
     }
   },
   {
@@ -869,7 +965,8 @@
     "fields": {
       "airport_name": "Frankfurt Airport",
       "city_name": "Frankfurt",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     }
   },
   {
@@ -878,7 +975,8 @@
     "fields": {
       "airport_name": "Fuerteventura Airport",
       "city_name": "Puerto del Rosario",
-      "country_name": "Spain"
+      "country_name": "Spain",
+      "country_code": "ES"
     }
   },
   {
@@ -887,7 +985,8 @@
     "fields": {
       "airport_name": "Sir Seretse Khama International Airport",
       "city_name": "Gaborone",
-      "country_name": "Botswana"
+      "country_name": "Botswana",
+      "country_code": "BW"
     }
   },
   {
@@ -896,7 +995,8 @@
     "fields": {
       "airport_name": "Cheddi Jagan International Airport",
       "city_name": "Georgetown",
-      "country_name": "Guyana"
+      "country_name": "Guyana",
+      "country_code": "GY"
     }
   },
   {
@@ -905,7 +1005,8 @@
     "fields": {
       "airport_name": "Rio de Janeiro Galeao International Airport",
       "city_name": "Rio de Janeiro",
-      "country_name": "Brazil"
+      "country_name": "Brazil",
+      "country_code": "BR"
     }
   },
   {
@@ -914,7 +1015,8 @@
     "fields": {
       "airport_name": "Glasgow Airport",
       "city_name": "Glasgow",
-      "country_name": "United Kingdom"
+      "country_name": "United Kingdom",
+      "country_code": "GB"
     }
   },
   {
@@ -923,7 +1025,8 @@
     "fields": {
       "airport_name": "Genoa Cristoforo Colombo Airport",
       "city_name": "Genoa",
-      "country_name": "Italy"
+      "country_name": "Italy",
+      "country_code": "IT"
     }
   },
   {
@@ -932,7 +1035,8 @@
     "fields": {
       "airport_name": "Gothenburg Landvetter Airport",
       "city_name": "Gothenburg",
-      "country_name": "Sweden"
+      "country_name": "Sweden",
+      "country_code": "SE"
     }
   },
   {
@@ -941,7 +1045,8 @@
     "fields": {
       "airport_name": "Sao Paulo Guarulhos International Airport",
       "city_name": "Sao Paulo",
-      "country_name": "Brazil"
+      "country_name": "Brazil",
+      "country_code": "BR"
     }
   },
   {
@@ -950,7 +1055,8 @@
     "fields": {
       "airport_name": "La Aurora International Airport",
       "city_name": "Guatemala City",
-      "country_name": "Guatemala"
+      "country_name": "Guatemala",
+      "country_code": "GT"
     }
   },
   {
@@ -959,7 +1065,8 @@
     "fields": {
       "airport_name": "Geneva Airport",
       "city_name": "Geneva",
-      "country_name": "Switzerland"
+      "country_name": "Switzerland",
+      "country_code": "CH"
     }
   },
   {
@@ -968,7 +1075,8 @@
     "fields": {
       "airport_name": "Heydar Aliyev International Airport",
       "city_name": "Baku",
-      "country_name": "Azerbaijan"
+      "country_name": "Azerbaijan",
+      "country_code": "AZ"
     }
   },
   {
@@ -977,7 +1085,8 @@
     "fields": {
       "airport_name": "Hanover Airport",
       "city_name": "Hanover",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     }
   },
   {
@@ -986,7 +1095,8 @@
     "fields": {
       "airport_name": "Hamburg Airport",
       "city_name": "Hamburg",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     }
   },
   {
@@ -995,7 +1105,8 @@
     "fields": {
       "airport_name": "Noi Bai International Airport",
       "city_name": "Hanoi",
-      "country_name": "Vietnam"
+      "country_name": "Vietnam",
+      "country_code": "VN"
     }
   },
   {
@@ -1004,7 +1115,8 @@
     "fields": {
       "airport_name": "Jose Marti International Airport",
       "city_name": "Havana",
-      "country_name": "Cuba"
+      "country_name": "Cuba",
+      "country_code": "CU"
     }
   },
   {
@@ -1013,7 +1125,8 @@
     "fields": {
       "airport_name": "Helsinki-Vantaa Airport",
       "city_name": "Helsinki",
-      "country_name": "Finland"
+      "country_name": "Finland",
+      "country_code": "FI"
     }
   },
   {
@@ -1022,7 +1135,8 @@
     "fields": {
       "airport_name": "Hong Kong International Airport",
       "city_name": "Hong Kong",
-      "country_name": "Hong Kong"
+      "country_name": "Hong Kong",
+      "country_code": "HK"
     }
   },
   {
@@ -1031,7 +1145,8 @@
     "fields": {
       "airport_name": "Tokyo Haneda Airport",
       "city_name": "Tokyo",
-      "country_name": "Japan"
+      "country_name": "Japan",
+      "country_code": "JP"
     }
   },
   {
@@ -1040,7 +1155,8 @@
     "fields": {
       "airport_name": "Daniel K. Inouye International Airport",
       "city_name": "Honolulu",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1049,7 +1165,8 @@
     "fields": {
       "airport_name": "Robert Gabriel Mugabe International Airport",
       "city_name": "Harare",
-      "country_name": "Zimbabwe"
+      "country_name": "Zimbabwe",
+      "country_code": "ZW"
     }
   },
   {
@@ -1058,7 +1175,8 @@
     "fields": {
       "airport_name": "Washington Dulles International Airport",
       "city_name": "Washington D.C.",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1067,7 +1185,8 @@
     "fields": {
       "airport_name": "George Bush Intercontinental Airport",
       "city_name": "Houston",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1076,7 +1195,8 @@
     "fields": {
       "airport_name": "Ibiza Airport",
       "city_name": "Ibiza",
-      "country_name": "Spain"
+      "country_name": "Spain",
+      "country_code": "ES"
     }
   },
   {
@@ -1085,7 +1205,8 @@
     "fields": {
       "airport_name": "Imam Khomeini International Airport",
       "city_name": "Tehran",
-      "country_name": "Iran"
+      "country_name": "Iran",
+      "country_code": "IR"
     }
   },
   {
@@ -1094,7 +1215,8 @@
     "fields": {
       "airport_name": "Indianapolis International Airport",
       "city_name": "Indianapolis",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1103,7 +1225,8 @@
     "fields": {
       "airport_name": "Islamabad International Airport",
       "city_name": "Islamabad",
-      "country_name": "Pakistan"
+      "country_name": "Pakistan",
+      "country_code": "PK"
     }
   },
   {
@@ -1112,7 +1235,8 @@
     "fields": {
       "airport_name": "Istanbul Airport",
       "city_name": "Istanbul",
-      "country_name": "Turkey"
+      "country_name": "Turkey",
+      "country_code": "TR"
     }
   },
   {
@@ -1121,7 +1245,8 @@
     "fields": {
       "airport_name": "King Abdulaziz International Airport",
       "city_name": "Jeddah",
-      "country_name": "Saudi Arabia"
+      "country_name": "Saudi Arabia",
+      "country_code": "SA"
     }
   },
   {
@@ -1130,7 +1255,8 @@
     "fields": {
       "airport_name": "John F. Kennedy International Airport",
       "city_name": "New York",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1139,7 +1265,8 @@
     "fields": {
       "airport_name": "O.R. Tambo International Airport",
       "city_name": "Johannesburg",
-      "country_name": "South Africa"
+      "country_name": "South Africa",
+      "country_code": "ZA"
     }
   },
   {
@@ -1148,7 +1275,8 @@
     "fields": {
       "airport_name": "Juba International Airport",
       "city_name": "Juba",
-      "country_name": "South Sudan"
+      "country_name": "South Sudan",
+      "country_code": "SS"
     }
   },
   {
@@ -1157,7 +1285,8 @@
     "fields": {
       "airport_name": "Kabul International Airport",
       "city_name": "Kabul",
-      "country_name": "Afghanistan"
+      "country_name": "Afghanistan",
+      "country_code": "AF"
     }
   },
   {
@@ -1166,7 +1295,8 @@
     "fields": {
       "airport_name": "Kigali International Airport",
       "city_name": "Kigali",
-      "country_name": "Rwanda"
+      "country_name": "Rwanda",
+      "country_code": "RW"
     }
   },
   {
@@ -1175,7 +1305,8 @@
     "fields": {
       "airport_name": "Jinnah International Airport",
       "city_name": "Karachi",
-      "country_name": "Pakistan"
+      "country_name": "Pakistan",
+      "country_code": "PK"
     }
   },
   {
@@ -1184,7 +1315,8 @@
     "fields": {
       "airport_name": "Norman Manley International Airport",
       "city_name": "Kingston",
-      "country_name": "Jamaica"
+      "country_name": "Jamaica",
+      "country_code": "JM"
     }
   },
   {
@@ -1193,7 +1325,8 @@
     "fields": {
       "airport_name": "Kansai International Airport",
       "city_name": "Osaka",
-      "country_name": "Japan"
+      "country_name": "Japan",
+      "country_code": "JP"
     }
   },
   {
@@ -1202,7 +1335,8 @@
     "fields": {
       "airport_name": "Khartoum International Airport",
       "city_name": "Khartoum",
-      "country_name": "Sudan"
+      "country_name": "Sudan",
+      "country_code": "SD"
     }
   },
   {
@@ -1211,7 +1345,8 @@
     "fields": {
       "airport_name": "Kuala Lumpur International Airport",
       "city_name": "Kuala Lumpur",
-      "country_name": "Malaysia"
+      "country_name": "Malaysia",
+      "country_code": "MY"
     }
   },
   {
@@ -1220,7 +1355,8 @@
     "fields": {
       "airport_name": "Kuwait International Airport",
       "city_name": "Kuwait City",
-      "country_name": "Kuwait"
+      "country_name": "Kuwait",
+      "country_code": "KW"
     }
   },
   {
@@ -1229,7 +1365,8 @@
     "fields": {
       "airport_name": "Quatro de Fevereiro Airport",
       "city_name": "Luanda",
-      "country_name": "Angola"
+      "country_name": "Angola",
+      "country_code": "AO"
     }
   },
   {
@@ -1238,7 +1375,8 @@
     "fields": {
       "airport_name": "Los Angeles International Airport",
       "city_name": "Los Angeles",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1247,7 +1385,8 @@
     "fields": {
       "airport_name": "Leeds Bradford Airport",
       "city_name": "Leeds",
-      "country_name": "United Kingdom"
+      "country_name": "United Kingdom",
+      "country_code": "GB"
     }
   },
   {
@@ -1256,7 +1395,8 @@
     "fields": {
       "airport_name": "Larnaca International Airport",
       "city_name": "Larnaca",
-      "country_name": "Cyprus"
+      "country_name": "Cyprus",
+      "country_code": "CY"
     }
   },
   {
@@ -1265,7 +1405,8 @@
     "fields": {
       "airport_name": "Lome-Tokoin International Airport",
       "city_name": "Lome",
-      "country_name": "Togo"
+      "country_name": "Togo",
+      "country_code": "TG"
     }
   },
   {
@@ -1274,7 +1415,8 @@
     "fields": {
       "airport_name": "London Gatwick Airport",
       "city_name": "London",
-      "country_name": "United Kingdom"
+      "country_name": "United Kingdom",
+      "country_code": "GB"
     }
   },
   {
@@ -1283,7 +1425,8 @@
     "fields": {
       "airport_name": "London Heathrow Airport",
       "city_name": "London",
-      "country_name": "United Kingdom"
+      "country_name": "United Kingdom",
+      "country_code": "GB"
     }
   },
   {
@@ -1292,7 +1435,8 @@
     "fields": {
       "airport_name": "Jorge Chavez International Airport",
       "city_name": "Lima",
-      "country_name": "Peru"
+      "country_name": "Peru",
+      "country_code": "PE"
     }
   },
   {
@@ -1301,7 +1445,8 @@
     "fields": {
       "airport_name": "Lisbon Humberto Delgado Airport",
       "city_name": "Lisbon",
-      "country_name": "Portugal"
+      "country_name": "Portugal",
+      "country_code": "PT"
     }
   },
   {
@@ -1310,7 +1455,8 @@
     "fields": {
       "airport_name": "Ljubljana Joze Pucnik Airport",
       "city_name": "Ljubljana",
-      "country_name": "Slovenia"
+      "country_name": "Slovenia",
+      "country_code": "SI"
     }
   },
   {
@@ -1319,7 +1465,8 @@
     "fields": {
       "airport_name": "Kamuzu International Airport",
       "city_name": "Lilongwe",
-      "country_name": "Malawi"
+      "country_name": "Malawi",
+      "country_code": "MW"
     }
   },
   {
@@ -1328,7 +1475,8 @@
     "fields": {
       "airport_name": "Murtala Muhammed International Airport",
       "city_name": "Lagos",
-      "country_name": "Nigeria"
+      "country_name": "Nigeria",
+      "country_code": "NG"
     }
   },
   {
@@ -1337,7 +1485,8 @@
     "fields": {
       "airport_name": "Gran Canaria Airport",
       "city_name": "Las Palmas",
-      "country_name": "Spain"
+      "country_name": "Spain",
+      "country_code": "ES"
     }
   },
   {
@@ -1346,7 +1495,8 @@
     "fields": {
       "airport_name": "El Alto International Airport",
       "city_name": "La Paz",
-      "country_name": "Bolivia"
+      "country_name": "Bolivia",
+      "country_code": "BO"
     }
   },
   {
@@ -1355,7 +1505,8 @@
     "fields": {
       "airport_name": "London Luton Airport",
       "city_name": "London Luton",
-      "country_name": "United Kingdom"
+      "country_name": "United Kingdom",
+      "country_code": "GB"
     }
   },
   {
@@ -1364,7 +1515,8 @@
     "fields": {
       "airport_name": "Kenneth Kaunda International Airport",
       "city_name": "Lusaka",
-      "country_name": "Zambia"
+      "country_name": "Zambia",
+      "country_code": "ZM"
     }
   },
   {
@@ -1373,7 +1525,8 @@
     "fields": {
       "airport_name": "Luxembourg Airport",
       "city_name": "Luxembourg City",
-      "country_name": "Luxembourg"
+      "country_name": "Luxembourg",
+      "country_code": "LU"
     }
   },
   {
@@ -1382,7 +1535,8 @@
     "fields": {
       "airport_name": "Chennai International Airport",
       "city_name": "Chennai",
-      "country_name": "India"
+      "country_name": "India",
+      "country_code": "IN"
     }
   },
   {
@@ -1391,7 +1545,8 @@
     "fields": {
       "airport_name": "Adolfo Suarez Madrid-Barajas Airport",
       "city_name": "Madrid",
-      "country_name": "Spain"
+      "country_name": "Spain",
+      "country_code": "ES"
     }
   },
   {
@@ -1400,7 +1555,8 @@
     "fields": {
       "airport_name": "Manchester Airport",
       "city_name": "Manchester",
-      "country_name": "United Kingdom"
+      "country_name": "United Kingdom",
+      "country_code": "GB"
     }
   },
   {
@@ -1409,7 +1565,8 @@
     "fields": {
       "airport_name": "Moi International Airport",
       "city_name": "Mombasa",
-      "country_name": "Kenya"
+      "country_name": "Kenya",
+      "country_code": "KE"
     }
   },
   {
@@ -1418,7 +1575,8 @@
     "fields": {
       "airport_name": "Sangster International Airport",
       "city_name": "Montego Bay",
-      "country_name": "Jamaica"
+      "country_name": "Jamaica",
+      "country_code": "JM"
     }
   },
   {
@@ -1427,7 +1585,8 @@
     "fields": {
       "airport_name": "Orlando International Airport",
       "city_name": "Orlando",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1436,7 +1595,8 @@
     "fields": {
       "airport_name": "Prince Mohammad Bin Abdulaziz Airport",
       "city_name": "Medina",
-      "country_name": "Saudi Arabia"
+      "country_name": "Saudi Arabia",
+      "country_code": "SA"
     }
   },
   {
@@ -1445,7 +1605,8 @@
     "fields": {
       "airport_name": "Melbourne Airport",
       "city_name": "Melbourne",
-      "country_name": "Australia"
+      "country_name": "Australia",
+      "country_code": "AU"
     }
   },
   {
@@ -1454,7 +1615,8 @@
     "fields": {
       "airport_name": "Mexico City International Airport",
       "city_name": "Mexico City",
-      "country_name": "Mexico"
+      "country_name": "Mexico",
+      "country_code": "MX"
     }
   },
   {
@@ -1463,7 +1625,8 @@
     "fields": {
       "airport_name": "Miami International Airport",
       "city_name": "Miami",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1472,7 +1635,8 @@
     "fields": {
       "airport_name": "Malta International Airport",
       "city_name": "Valletta",
-      "country_name": "Malta"
+      "country_name": "Malta",
+      "country_code": "MT"
     }
   },
   {
@@ -1481,7 +1645,8 @@
     "fields": {
       "airport_name": "Velana International Airport",
       "city_name": "Male",
-      "country_name": "Maldives"
+      "country_name": "Maldives",
+      "country_code": "MV"
     }
   },
   {
@@ -1490,7 +1655,8 @@
     "fields": {
       "airport_name": "Roberts International Airport",
       "city_name": "Monrovia",
-      "country_name": "Liberia"
+      "country_name": "Liberia",
+      "country_code": "LR"
     }
   },
   {
@@ -1499,7 +1665,8 @@
     "fields": {
       "airport_name": "Malmo Airport",
       "city_name": "Malmo",
-      "country_name": "Sweden"
+      "country_name": "Sweden",
+      "country_code": "SE"
     }
   },
   {
@@ -1508,7 +1675,8 @@
     "fields": {
       "airport_name": "Ninoy Aquino International Airport",
       "city_name": "Manila",
-      "country_name": "Philippines"
+      "country_name": "Philippines",
+      "country_code": "PH"
     }
   },
   {
@@ -1517,7 +1685,8 @@
     "fields": {
       "airport_name": "Maputo International Airport",
       "city_name": "Maputo",
-      "country_name": "Mozambique"
+      "country_name": "Mozambique",
+      "country_code": "MZ"
     }
   },
   {
@@ -1526,7 +1695,8 @@
     "fields": {
       "airport_name": "Marseille Provence Airport",
       "city_name": "Marseille",
-      "country_name": "France"
+      "country_name": "France",
+      "country_code": "FR"
     }
   },
   {
@@ -1535,7 +1705,8 @@
     "fields": {
       "airport_name": "Sir Seewoosagur Ramgoolam International Airport",
       "city_name": "Port Louis",
-      "country_name": "Mauritius"
+      "country_name": "Mauritius",
+      "country_code": "MU"
     }
   },
   {
@@ -1544,7 +1715,8 @@
     "fields": {
       "airport_name": "Minneapolis-Saint Paul International Airport",
       "city_name": "Minneapolis",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1553,7 +1725,8 @@
     "fields": {
       "airport_name": "Minsk National Airport",
       "city_name": "Minsk",
-      "country_name": "Belarus"
+      "country_name": "Belarus",
+      "country_code": "BY"
     }
   },
   {
@@ -1562,7 +1735,8 @@
     "fields": {
       "airport_name": "Munich Airport",
       "city_name": "Munich",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     }
   },
   {
@@ -1571,7 +1745,8 @@
     "fields": {
       "airport_name": "Milan Malpensa Airport",
       "city_name": "Milan",
-      "country_name": "Italy"
+      "country_name": "Italy",
+      "country_code": "IT"
     }
   },
   {
@@ -1580,7 +1755,8 @@
     "fields": {
       "airport_name": "Naples International Airport",
       "city_name": "Naples",
-      "country_name": "Italy"
+      "country_name": "Italy",
+      "country_code": "IT"
     }
   },
   {
@@ -1589,7 +1765,8 @@
     "fields": {
       "airport_name": "Jomo Kenyatta International Airport",
       "city_name": "Nairobi",
-      "country_name": "Kenya"
+      "country_name": "Kenya",
+      "country_code": "KE"
     }
   },
   {
@@ -1598,7 +1775,8 @@
     "fields": {
       "airport_name": "Nice Cote d'Azur Airport",
       "city_name": "Nice",
-      "country_name": "France"
+      "country_name": "France",
+      "country_code": "FR"
     }
   },
   {
@@ -1607,7 +1785,8 @@
     "fields": {
       "airport_name": "Diori Hamani International Airport",
       "city_name": "Niamey",
-      "country_name": "Niger"
+      "country_name": "Niger",
+      "country_code": "NE"
     }
   },
   {
@@ -1616,7 +1795,8 @@
     "fields": {
       "airport_name": "La Tontouta International Airport",
       "city_name": "Noumea",
-      "country_name": "New Caledonia"
+      "country_name": "New Caledonia",
+      "country_code": "NC"
     }
   },
   {
@@ -1625,7 +1805,8 @@
     "fields": {
       "airport_name": "Narita International Airport",
       "city_name": "Tokyo",
-      "country_name": "Japan"
+      "country_name": "Japan",
+      "country_code": "JP"
     }
   },
   {
@@ -1634,7 +1815,8 @@
     "fields": {
       "airport_name": "Francisco Sa Carneiro Airport",
       "city_name": "Porto",
-      "country_name": "Portugal"
+      "country_name": "Portugal",
+      "country_code": "PT"
     }
   },
   {
@@ -1643,7 +1825,8 @@
     "fields": {
       "airport_name": "O'Hare International Airport",
       "city_name": "Chicago",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1652,7 +1835,8 @@
     "fields": {
       "airport_name": "Cork Airport",
       "city_name": "Cork",
-      "country_name": "Ireland"
+      "country_name": "Ireland",
+      "country_code": "IE"
     }
   },
   {
@@ -1661,7 +1845,8 @@
     "fields": {
       "airport_name": "Paris Orly Airport",
       "city_name": "Paris Orly",
-      "country_name": "France"
+      "country_name": "France",
+      "country_code": "FR"
     }
   },
   {
@@ -1670,7 +1855,8 @@
     "fields": {
       "airport_name": "Henri Coanda International Airport",
       "city_name": "Bucharest",
-      "country_name": "Romania"
+      "country_name": "Romania",
+      "country_code": "RO"
     }
   },
   {
@@ -1679,7 +1865,8 @@
     "fields": {
       "airport_name": "Ouagadougou Airport",
       "city_name": "Ouagadougou",
-      "country_name": "Burkina Faso"
+      "country_name": "Burkina Faso",
+      "country_code": "BF"
     }
   },
   {
@@ -1688,7 +1875,8 @@
     "fields": {
       "airport_name": "Osvaldo Vieira International Airport",
       "city_name": "Bissau",
-      "country_name": "Guinea-Bissau"
+      "country_name": "Guinea-Bissau",
+      "country_code": "GW"
     }
   },
   {
@@ -1697,7 +1885,8 @@
     "fields": {
       "airport_name": "Toussaint Louverture International Airport",
       "city_name": "Port-au-Prince",
-      "country_name": "Haiti"
+      "country_name": "Haiti",
+      "country_code": "HT"
     }
   },
   {
@@ -1706,7 +1895,8 @@
     "fields": {
       "airport_name": "Johan Adolf Pengel International Airport",
       "city_name": "Paramaribo",
-      "country_name": "Suriname"
+      "country_name": "Suriname",
+      "country_code": "SR"
     }
   },
   {
@@ -1715,7 +1905,8 @@
     "fields": {
       "airport_name": "Joao Paulo II Airport",
       "city_name": "Ponta Delgada",
-      "country_name": "Portugal"
+      "country_name": "Portugal",
+      "country_code": "PT"
     }
   },
   {
@@ -1724,7 +1915,8 @@
     "fields": {
       "airport_name": "Beijing Capital International Airport",
       "city_name": "Beijing",
-      "country_name": "China"
+      "country_name": "China",
+      "country_code": "CN"
     }
   },
   {
@@ -1733,7 +1925,8 @@
     "fields": {
       "airport_name": "Philadelphia International Airport",
       "city_name": "Philadelphia",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1742,7 +1935,8 @@
     "fields": {
       "airport_name": "Phoenix Sky Harbor International Airport",
       "city_name": "Phoenix",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1751,7 +1945,8 @@
     "fields": {
       "airport_name": "Beijing Daxing International Airport",
       "city_name": "Beijing",
-      "country_name": "China"
+      "country_name": "China",
+      "country_code": "CN"
     }
   },
   {
@@ -1760,7 +1955,8 @@
     "fields": {
       "airport_name": "Palma de Mallorca Airport",
       "city_name": "Palma de Mallorca",
-      "country_name": "Spain"
+      "country_name": "Spain",
+      "country_code": "ES"
     }
   },
   {
@@ -1769,7 +1965,8 @@
     "fields": {
       "airport_name": "Phnom Penh International Airport",
       "city_name": "Phnom Penh",
-      "country_name": "Cambodia"
+      "country_name": "Cambodia",
+      "country_code": "KH"
     }
   },
   {
@@ -1778,7 +1975,8 @@
     "fields": {
       "airport_name": "Piarco International Airport",
       "city_name": "Port of Spain",
-      "country_name": "Trinidad and Tobago"
+      "country_name": "Trinidad and Tobago",
+      "country_code": "TT"
     }
   },
   {
@@ -1787,7 +1985,8 @@
     "fields": {
       "airport_name": "Faa'a International Airport",
       "city_name": "Papeete",
-      "country_name": "French Polynesia"
+      "country_name": "French Polynesia",
+      "country_code": "PF"
     }
   },
   {
@@ -1796,7 +1995,8 @@
     "fields": {
       "airport_name": "Vaclav Havel Airport Prague",
       "city_name": "Prague",
-      "country_name": "Czech Republic"
+      "country_name": "Czech Republic",
+      "country_code": "CZ"
     }
   },
   {
@@ -1805,7 +2005,8 @@
     "fields": {
       "airport_name": "Pointe-a-Pitre Le Raizet Airport",
       "city_name": "Pointe-a-Pitre",
-      "country_name": "Guadeloupe"
+      "country_name": "Guadeloupe",
+      "country_code": "GP"
     }
   },
   {
@@ -1814,7 +2015,8 @@
     "fields": {
       "airport_name": "Tocumen International Airport",
       "city_name": "Panama City",
-      "country_name": "Panama"
+      "country_name": "Panama",
+      "country_code": "PA"
     }
   },
   {
@@ -1823,7 +2025,8 @@
     "fields": {
       "airport_name": "Shanghai Pudong International Airport",
       "city_name": "Shanghai",
-      "country_name": "China"
+      "country_name": "China",
+      "country_code": "CN"
     }
   },
   {
@@ -1831,8 +2034,9 @@
     "pk": "PVH",
     "fields": {
       "airport_name": "Terceira Island Airport",
-      "city_name": "Praia da Vitória",
-      "country_name": "Portugal"
+      "city_name": "Praia da Vit\u00f3ria",
+      "country_name": "Portugal",
+      "country_code": "PT"
     }
   },
   {
@@ -1841,7 +2045,8 @@
     "fields": {
       "airport_name": "Nelson Mandela International Airport",
       "city_name": "Praia",
-      "country_name": "Cape Verde"
+      "country_name": "Cape Verde",
+      "country_code": "CV"
     }
   },
   {
@@ -1850,7 +2055,8 @@
     "fields": {
       "airport_name": "Marrakech Menara Airport",
       "city_name": "Marrakech",
-      "country_name": "Morocco"
+      "country_name": "Morocco",
+      "country_code": "MA"
     }
   },
   {
@@ -1859,7 +2065,8 @@
     "fields": {
       "airport_name": "Rabat-Sale Airport",
       "city_name": "Rabat",
-      "country_name": "Morocco"
+      "country_name": "Morocco",
+      "country_code": "MA"
     }
   },
   {
@@ -1868,7 +2075,8 @@
     "fields": {
       "airport_name": "Yangon International Airport",
       "city_name": "Yangon",
-      "country_name": "Myanmar"
+      "country_name": "Myanmar",
+      "country_code": "MM"
     }
   },
   {
@@ -1877,7 +2085,8 @@
     "fields": {
       "airport_name": "Riga International Airport",
       "city_name": "Riga",
-      "country_name": "Latvia"
+      "country_name": "Latvia",
+      "country_code": "LV"
     }
   },
   {
@@ -1886,7 +2095,8 @@
     "fields": {
       "airport_name": "Reykjavik Domestic Airport",
       "city_name": "Reykjavik",
-      "country_name": "Iceland"
+      "country_name": "Iceland",
+      "country_code": "IS"
     }
   },
   {
@@ -1895,7 +2105,8 @@
     "fields": {
       "airport_name": "Rotterdam The Hague Airport",
       "city_name": "Rotterdam",
-      "country_name": "Netherlands"
+      "country_name": "Netherlands",
+      "country_code": "NL"
     }
   },
   {
@@ -1904,7 +2115,8 @@
     "fields": {
       "airport_name": "King Khalid International Airport",
       "city_name": "Riyadh",
-      "country_name": "Saudi Arabia"
+      "country_name": "Saudi Arabia",
+      "country_code": "SA"
     }
   },
   {
@@ -1913,7 +2125,8 @@
     "fields": {
       "airport_name": "El Salvador International Airport",
       "city_name": "San Salvador",
-      "country_name": "El Salvador"
+      "country_name": "El Salvador",
+      "country_code": "SV"
     }
   },
   {
@@ -1922,7 +2135,8 @@
     "fields": {
       "airport_name": "San Diego International Airport",
       "city_name": "San Diego",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1931,7 +2145,8 @@
     "fields": {
       "airport_name": "Ramon Villeda Morales International Airport",
       "city_name": "San Pedro Sula",
-      "country_name": "Honduras"
+      "country_name": "Honduras",
+      "country_code": "HN"
     }
   },
   {
@@ -1940,7 +2155,8 @@
     "fields": {
       "airport_name": "Istanbul Sabiha Gokcen International Airport",
       "city_name": "Istanbul",
-      "country_name": "Turkey"
+      "country_name": "Turkey",
+      "country_code": "TR"
     }
   },
   {
@@ -1949,7 +2165,8 @@
     "fields": {
       "airport_name": "Arturo Merino Benitez International Airport",
       "city_name": "Santiago",
-      "country_name": "Chile"
+      "country_name": "Chile",
+      "country_code": "CL"
     }
   },
   {
@@ -1958,7 +2175,8 @@
     "fields": {
       "airport_name": "Seattle-Tacoma International Airport",
       "city_name": "Seattle",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1967,7 +2185,8 @@
     "fields": {
       "airport_name": "San Francisco International Airport",
       "city_name": "San Francisco",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -1976,7 +2195,8 @@
     "fields": {
       "airport_name": "Tan Son Nhat International Airport",
       "city_name": "Ho Chi Minh City",
-      "country_name": "Vietnam"
+      "country_name": "Vietnam",
+      "country_code": "VN"
     }
   },
   {
@@ -1985,7 +2205,8 @@
     "fields": {
       "airport_name": "Shanghai Hongqiao International Airport",
       "city_name": "Shanghai",
-      "country_name": "China"
+      "country_name": "China",
+      "country_code": "CN"
     }
   },
   {
@@ -1994,7 +2215,8 @@
     "fields": {
       "airport_name": "Singapore Changi Airport",
       "city_name": "Singapore",
-      "country_name": "Singapore"
+      "country_name": "Singapore",
+      "country_code": "SG"
     }
   },
   {
@@ -2003,7 +2225,8 @@
     "fields": {
       "airport_name": "Juan Santamaria International Airport",
       "city_name": "San Jose",
-      "country_name": "Costa Rica"
+      "country_name": "Costa Rica",
+      "country_code": "CR"
     }
   },
   {
@@ -2012,7 +2235,8 @@
     "fields": {
       "airport_name": "Thessaloniki Macedonia International Airport",
       "city_name": "Thessaloniki",
-      "country_name": "Greece"
+      "country_name": "Greece",
+      "country_code": "GR"
     }
   },
   {
@@ -2021,7 +2245,8 @@
     "fields": {
       "airport_name": "Skopje International Airport",
       "city_name": "Skopje",
-      "country_name": "North Macedonia"
+      "country_name": "North Macedonia",
+      "country_code": "MK"
     }
   },
   {
@@ -2030,7 +2255,8 @@
     "fields": {
       "airport_name": "Salt Lake City International Airport",
       "city_name": "Salt Lake City",
-      "country_name": "United States"
+      "country_name": "United States",
+      "country_code": "US"
     }
   },
   {
@@ -2039,7 +2265,8 @@
     "fields": {
       "airport_name": "Santa Maria Airport",
       "city_name": "Santa Maria",
-      "country_name": "Portugal"
+      "country_name": "Portugal",
+      "country_code": "PT"
     }
   },
   {
@@ -2048,7 +2275,8 @@
     "fields": {
       "airport_name": "Sofia Airport",
       "city_name": "Sofia",
-      "country_name": "Bulgaria"
+      "country_name": "Bulgaria",
+      "country_code": "BG"
     }
   },
   {
@@ -2057,7 +2285,8 @@
     "fields": {
       "airport_name": "Santa Isabel Airport",
       "city_name": "Malabo",
-      "country_name": "Equatorial Guinea"
+      "country_name": "Equatorial Guinea",
+      "country_code": "GQ"
     }
   },
   {
@@ -2066,7 +2295,8 @@
     "fields": {
       "airport_name": "London Stansted Airport",
       "city_name": "London Stansted",
-      "country_name": "United Kingdom"
+      "country_name": "United Kingdom",
+      "country_code": "GB"
     }
   },
   {
@@ -2075,7 +2305,8 @@
     "fields": {
       "airport_name": "Stuttgart Airport",
       "city_name": "Stuttgart",
-      "country_name": "Germany"
+      "country_name": "Germany",
+      "country_code": "DE"
     }
   },
   {
@@ -2084,7 +2315,8 @@
     "fields": {
       "airport_name": "Juanda International Airport",
       "city_name": "Surabaya",
-      "country_name": "Indonesia"
+      "country_name": "Indonesia",
+      "country_code": "ID"
     }
   },
   {
@@ -2093,7 +2325,8 @@
     "fields": {
       "airport_name": "Stavanger Airport Sola",
       "city_name": "Stavanger",
-      "country_name": "Norway"
+      "country_name": "Norway",
+      "country_code": "NO"
     }
   },
   {
@@ -2102,7 +2335,8 @@
     "fields": {
       "airport_name": "Moscow Sheremetyevo International Airport",
       "city_name": "Moscow",
-      "country_name": "Russia"
+      "country_name": "Russia",
+      "country_code": "RU"
     }
   },
   {
@@ -2111,7 +2345,8 @@
     "fields": {
       "airport_name": "Sydney Kingsford Smith Airport",
       "city_name": "Sydney",
-      "country_name": "Australia"
+      "country_name": "Australia",
+      "country_code": "AU"
     }
   },
   {
@@ -2120,7 +2355,8 @@
     "fields": {
       "airport_name": "Salzburg Airport W. A. Mozart",
       "city_name": "Salzburg",
-      "country_name": "Austria"
+      "country_name": "Austria",
+      "country_code": "AT"
     }
   },
   {
@@ -2129,7 +2365,8 @@
     "fields": {
       "airport_name": "Tashkent International Airport",
       "city_name": "Tashkent",
-      "country_name": "Uzbekistan"
+      "country_name": "Uzbekistan",
+      "country_code": "UZ"
     }
   },
   {
@@ -2138,7 +2375,8 @@
     "fields": {
       "airport_name": "Tbilisi International Airport",
       "city_name": "Tbilisi",
-      "country_name": "Georgia"
+      "country_name": "Georgia",
+      "country_code": "GE"
     }
   },
   {
@@ -2147,7 +2385,8 @@
     "fields": {
       "airport_name": "Tenerife North Airport",
       "city_name": "Tenerife",
-      "country_name": "Spain"
+      "country_name": "Spain",
+      "country_code": "ES"
     }
   },
   {
@@ -2156,7 +2395,8 @@
     "fields": {
       "airport_name": "Tenerife South Airport",
       "city_name": "Tenerife",
-      "country_name": "Spain"
+      "country_name": "Spain",
+      "country_code": "ES"
     }
   },
   {
@@ -2165,7 +2405,8 @@
     "fields": {
       "airport_name": "Podgorica Airport",
       "city_name": "Podgorica",
-      "country_name": "Montenegro"
+      "country_name": "Montenegro",
+      "country_code": "ME"
     }
   },
   {
@@ -2174,7 +2415,8 @@
     "fields": {
       "airport_name": "Mitiga International Airport",
       "city_name": "Tripoli",
-      "country_name": "Libya"
+      "country_name": "Libya",
+      "country_code": "LY"
     }
   },
   {
@@ -2183,7 +2425,8 @@
     "fields": {
       "airport_name": "Tallinn Airport",
       "city_name": "Tallinn",
-      "country_name": "Estonia"
+      "country_name": "Estonia",
+      "country_code": "EE"
     }
   },
   {
@@ -2192,7 +2435,8 @@
     "fields": {
       "airport_name": "Ben Gurion International Airport",
       "city_name": "Tel Aviv",
-      "country_name": "Israel"
+      "country_name": "Israel",
+      "country_code": "IL"
     }
   },
   {
@@ -2201,7 +2445,8 @@
     "fields": {
       "airport_name": "Ivato International Airport",
       "city_name": "Antananarivo",
-      "country_name": "Madagascar"
+      "country_name": "Madagascar",
+      "country_code": "MG"
     }
   },
   {
@@ -2210,7 +2455,8 @@
     "fields": {
       "airport_name": "Tromso Airport Langnes",
       "city_name": "Tromso",
-      "country_name": "Norway"
+      "country_name": "Norway",
+      "country_code": "NO"
     }
   },
   {
@@ -2219,7 +2465,8 @@
     "fields": {
       "airport_name": "Turin Airport",
       "city_name": "Turin",
-      "country_name": "Italy"
+      "country_name": "Italy",
+      "country_code": "IT"
     }
   },
   {
@@ -2228,7 +2475,8 @@
     "fields": {
       "airport_name": "Tunis-Carthage International Airport",
       "city_name": "Tunis",
-      "country_name": "Tunisia"
+      "country_name": "Tunisia",
+      "country_code": "TN"
     }
   },
   {
@@ -2237,7 +2485,8 @@
     "fields": {
       "airport_name": "Mariscal Sucre International Airport",
       "city_name": "Quito",
-      "country_name": "Ecuador"
+      "country_name": "Ecuador",
+      "country_code": "EC"
     }
   },
   {
@@ -2246,7 +2495,8 @@
     "fields": {
       "airport_name": "Venice Marco Polo Airport",
       "city_name": "Venice",
-      "country_name": "Italy"
+      "country_name": "Italy",
+      "country_code": "IT"
     }
   },
   {
@@ -2255,7 +2505,8 @@
     "fields": {
       "airport_name": "Vienna International Airport",
       "city_name": "Vienna",
-      "country_name": "Austria"
+      "country_name": "Austria",
+      "country_code": "AT"
     }
   },
   {
@@ -2264,7 +2515,8 @@
     "fields": {
       "airport_name": "Moscow Vnukovo International Airport",
       "city_name": "Moscow",
-      "country_name": "Russia"
+      "country_name": "Russia",
+      "country_code": "RU"
     }
   },
   {
@@ -2273,7 +2525,8 @@
     "fields": {
       "airport_name": "Valencia Airport",
       "city_name": "Valencia",
-      "country_name": "Spain"
+      "country_name": "Spain",
+      "country_code": "ES"
     }
   },
   {
@@ -2282,7 +2535,8 @@
     "fields": {
       "airport_name": "Vilnius Airport",
       "city_name": "Vilnius",
-      "country_name": "Lithuania"
+      "country_name": "Lithuania",
+      "country_code": "LT"
     }
   },
   {
@@ -2291,7 +2545,8 @@
     "fields": {
       "airport_name": "Warsaw Chopin Airport",
       "city_name": "Warsaw",
-      "country_name": "Poland"
+      "country_name": "Poland",
+      "country_code": "PL"
     }
   },
   {
@@ -2300,7 +2555,8 @@
     "fields": {
       "airport_name": "Hosea Kutako International Airport",
       "city_name": "Windhoek",
-      "country_name": "Namibia"
+      "country_name": "Namibia",
+      "country_code": "NA"
     }
   },
   {
@@ -2309,7 +2565,8 @@
     "fields": {
       "airport_name": "Wellington International Airport",
       "city_name": "Wellington",
-      "country_name": "New Zealand"
+      "country_name": "New Zealand",
+      "country_code": "NZ"
     }
   },
   {
@@ -2318,7 +2575,8 @@
     "fields": {
       "airport_name": "Xiamen Gaoqi International Airport",
       "city_name": "Xiamen",
-      "country_name": "China"
+      "country_name": "China",
+      "country_code": "CN"
     }
   },
   {
@@ -2327,7 +2585,8 @@
     "fields": {
       "airport_name": "Edmonton International Airport",
       "city_name": "Edmonton",
-      "country_name": "Canada"
+      "country_name": "Canada",
+      "country_code": "CA"
     }
   },
   {
@@ -2336,7 +2595,8 @@
     "fields": {
       "airport_name": "Montreal-Trudeau International Airport",
       "city_name": "Montreal",
-      "country_name": "Canada"
+      "country_name": "Canada",
+      "country_code": "CA"
     }
   },
   {
@@ -2345,7 +2605,8 @@
     "fields": {
       "airport_name": "Vancouver International Airport",
       "city_name": "Vancouver",
-      "country_name": "Canada"
+      "country_name": "Canada",
+      "country_code": "CA"
     }
   },
   {
@@ -2354,7 +2615,8 @@
     "fields": {
       "airport_name": "Calgary International Airport",
       "city_name": "Calgary",
-      "country_name": "Canada"
+      "country_name": "Canada",
+      "country_code": "CA"
     }
   },
   {
@@ -2363,7 +2625,8 @@
     "fields": {
       "airport_name": "Toronto Pearson International Airport",
       "city_name": "Toronto",
-      "country_name": "Canada"
+      "country_name": "Canada",
+      "country_code": "CA"
     }
   },
   {
@@ -2372,7 +2635,8 @@
     "fields": {
       "airport_name": "Zagreb Airport",
       "city_name": "Zagreb",
-      "country_name": "Croatia"
+      "country_name": "Croatia",
+      "country_code": "HR"
     }
   },
   {
@@ -2381,7 +2645,8 @@
     "fields": {
       "airport_name": "Abeid Amani Karume International Airport",
       "city_name": "Zanzibar",
-      "country_name": "Tanzania"
+      "country_name": "Tanzania",
+      "country_code": "TZ"
     }
   },
   {
@@ -2390,7 +2655,8 @@
     "fields": {
       "airport_name": "Zurich Airport",
       "city_name": "Zurich",
-      "country_name": "Switzerland"
+      "country_name": "Switzerland",
+      "country_code": "CH"
     }
   }
 ]

@@ -6,20 +6,22 @@ class Location(models.Model):
     airport_name = models.CharField(max_length=150, blank=True, default='')
     city_name = models.CharField(max_length=100)
     country_name = models.CharField(max_length=100)
+    country_code = models.CharField(max_length=2)
     
     def __str__(self):
         return f"{self.city_name} ({self.iata_code})"
 
 class SafetyIndex(models.Model):
     """DB 2: Spartacus-based LGBTQ+ ratings"""
-    location = models.OneToOneField(Location, on_delete=models.CASCADE) # One-to-One Relationship: Each location has one safety index
+    country_code = models.CharField(max_length=2, unique=True)
+    country_name = models.CharField(max_length=100)
     score = models.SmallIntegerField(default=0)
     last_updated = models.DateField(auto_now=True)
     
     # These fields will feed the 'Safety Pill' bullet points
-    legal_status = models.TextField(help_text="Marriage equality, anti-discrimination laws, etc.")
-    social_vibe = models.TextField(help_text="Local community infrastructure and safety.")
-    travel_alerts = models.TextField(null=True, blank=True, help_text="Specific risks or censorship.")
+    legal_status = models.TextField()
+    social_vibe = models.TextField()
+    travel_alerts = models.TextField(null=True, blank=True)
 
     def __str__(self):
-        return f"Safety for {self.location.city_name}: {self.score}"
+        return f"Safety for {self.country_name}: {self.score}"

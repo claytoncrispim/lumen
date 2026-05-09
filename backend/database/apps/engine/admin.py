@@ -10,5 +10,5 @@ class LocationAdmin(admin.ModelAdmin):
 
 @admin.register(SafetyIndex)
 class SafetyIndexAdmin(admin.ModelAdmin):
-	list_display = ("location", "score", "last_updated")
-	search_fields = ("location__iata_code", "location__city_name", "location__country_name")
+	list_display = ("country_code", "country_name", "score", "last_updated")
+	search_fields = ("country_code", "country_name")
