@@ -1,4 +1,6 @@
 from django.test import TestCase
+from unittest.mock import AsyncMock, patch
+
 from .models import Location, SafetyIndex
 
 
@@ -71,3 +73,52 @@ class EngineApiTest(TestCase):
 	def test_locations_list_rejects_post_method(self):
 		response = self.client.post("/api/locations/", data={"dummy": "value"})
 		self.assertEqual(response.status_code, 405)
+
+	@patch("apps.engine.views.fetch_weather_forecast", new_callable=AsyncMock)
+	def test_get_weather_returns_payload(self, mock_fetch_weather_forecast):
+		mock_fetch_weather_forecast.return_value = {
+			"found": True,
+			"provider": "Open-Meteo",
+			"location": {"name": "London", "country": "United Kingdom"},
+			"summary": {"headline": "Mild and generally pleasant."},
+			"daily": [],
+		}
+
+		response = self.client.get("/api/weather/London/")
+		self.assertEqual(response.status_code, 200)
+		payload = response.json()
+		self.assertEqual(payload["provider"], "Open-Meteo")
+		self.assertTrue(payload["found"])
+
+	@patch("apps.engine.views.fetch_weather_forecast", new_callable=AsyncMock)
+	def test_get_weather_returns_404_for_unknown_location(self, mock_fetch_weather_forecast):
+		mock_fetch_weather_forecast.side_effect = Exception("LOCATION_NOT_FOUND: Atlantis")
+
+		response = self.client.get("/api/weather/Atlantis/")
+		self.assertEqual(response.status_code, 404)
+		payload = response.json()
+		self.assertEqual(payload["error"], "DESTINATION_NOT_FOUND")
+		self.assertEqual(payload["message"], "Could not find weather location for \"Atlantis\".")
+
+	@patch("apps.engine.views.fetch_weather_forecast", new_callable=AsyncMock)
+	def test_get_weather_returns_400_for_missing_destination(self, mock_fetch_weather_forecast):
+		mock_fetch_weather_forecast.side_effect = Exception("DESTINATION_REQUIRED")
+
+		response = self.client.get("/api/weather/London/")
+		self.assertEqual(response.status_code, 400)
+		payload = response.json()
+		self.assertEqual(payload["error"], "DESTINATION_REQUIRED")
+		self.assertEqual(payload["message"], "Please provide a destination query parameter.")
+
+	@patch("apps.engine.views.fetch_weather_forecast", new_callable=AsyncMock)
+	def test_get_weather_returns_500_for_upstream_failure(self, mock_fetch_weather_forecast):
+		mock_fetch_weather_forecast.side_effect = Exception("GEOCODING_FAILED: 503")
+
+		response = self.client.get("/api/weather/London/")
+		self.assertEqual(response.status_code, 500)
+		payload = response.json()
+		self.assertEqual(payload["error"], "WEATHER_API_ERROR")
+		self.assertEqual(
+			payload["message"],
+			"We had trouble fetching live weather data for this destination.",
+		)

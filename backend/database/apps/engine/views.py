@@ -2,7 +2,40 @@ from django.http import JsonResponse
 from django.views.decorators.http import require_GET
 
 from .models import Location, SafetyIndex
+from apps.utils.fetch_weather_forecast import fetch_weather_forecast
 
+
+@require_GET
+async def get_weather(request, city_name):
+    try:
+        payload = await fetch_weather_forecast(city_name)
+        return JsonResponse(payload, safe=False)
+    except Exception as exc:
+        message = str(exc)
+        if message == "DESTINATION_REQUIRED":
+            return JsonResponse(
+                {
+                    "error": "DESTINATION_REQUIRED",
+                    "message": "Please provide a destination query parameter.",
+                },
+                status=400,
+            )
+        if message.startswith("LOCATION_NOT_FOUND"):
+            city = message.split(":", 1)[1].strip() if ":" in message else city_name
+            return JsonResponse(
+                {
+                    "error": "DESTINATION_NOT_FOUND",
+                    "message": f"Could not find weather location for \"{city}\".",
+                },
+                status=404,
+            )
+        return JsonResponse(
+            {
+                "error": "WEATHER_API_ERROR",
+                "message": "We had trouble fetching live weather data for this destination.",
+            },
+            status=500,
+        )
 
 @require_GET
 def locations_list(request):
@@ -49,3 +82,5 @@ def location_detail(request, city_name):
         })
 
     return JsonResponse(data, safe=False)
+
+

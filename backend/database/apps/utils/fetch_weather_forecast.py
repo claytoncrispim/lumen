@@ -1,9 +1,6 @@
 import urllib.parse
 import aiohttp
-from django.http import JsonResponse
-from django.views.decorators.http import require_GET
 
-@require_GET
 async def fetch_weather_forecast(city_name):
     if not city_name or not city_name.strip():
         raise Exception("DESTINATION_REQUIRED")
@@ -20,8 +17,8 @@ async def fetch_weather_forecast(city_name):
     
             geo_data = await geo_response.json()
             places = geo_data.get("results", [])
-            if not places: # No match found for the city
-                return JsonResponse(Exception(f"Could not find weather location for '{city_name}'"), safe=False, status=404)
+            if not places:  # No match found for the city
+                raise Exception(f"LOCATION_NOT_FOUND: {city_name}")
             
             place = places[0]
             latitude = place.get("latitude")
@@ -83,7 +80,7 @@ async def fetch_weather_forecast(city_name):
 
                 if avg_max is not None and avg_min is not None:
                     if avg_max >= 25 and sum_precip < 5:
-                        headline = "Warm and mostly dry – great beach or pool weather."
+                        headline = "Warm and mostly dry - great beach or pool weather."
                     elif avg_max >= 20 and sum_precip < 10:
                         headline = "Mild and generally pleasant with only light rain."
                     elif avg_max < 10:
@@ -91,7 +88,7 @@ async def fetch_weather_forecast(city_name):
                     elif sum_precip >= 15:
                         headline = "Expect a fair bit of rain – an umbrella is a good idea."
 
-                return JsonResponse({
+                return {
                     "found": True,
                     "provider": "Open-Meteo",
                     "location": {
@@ -106,6 +103,6 @@ async def fetch_weather_forecast(city_name):
                         "avg_max": avg_max,
                         "avg_min": avg_min,
                         "total_precip": sum_precip,
-                        },                    
+                    },
                     "daily": forecast_daily_list,
-                }, safe=False)
+                }
