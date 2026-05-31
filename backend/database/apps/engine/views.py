@@ -1,10 +1,41 @@
 from django.http import JsonResponse
 from django.views.decorators.http import require_GET
+from django.views.decorators.http import require_POST
+import json
+import os
 
 from .models import Location, SafetyIndex
 from apps.utils.fetch_weather_forecast import fetch_weather_forecast
+from apps.utils.generate_travel_guide import generate_travel_guide
 
 
+@require_GET
+def ping(request):
+    return JsonResponse({"status": "ok"})
+
+
+@require_GET
+def llm_health(request):
+    configured = bool(os.getenv("GEMINI_API_KEY", "").strip())
+    if not configured:
+        return JsonResponse(
+            {
+                "status": "error",
+                "error": "GEMINI_API_KEY_MISSING",
+                "gemini": {"configured": False},
+            },
+            status=503,
+        )
+
+    return JsonResponse(
+        {
+            "status": "ok",
+            "gemini": {"configured": True},
+        }
+    )
+
+
+# WEATHER endpoint
 @require_GET
 async def get_weather(request, city_name):
     try:
@@ -36,6 +67,42 @@ async def get_weather(request, city_name):
             },
             status=500,
         )
+
+@require_POST
+async def generate_guide(request):
+    try:
+        payload = json.loads(request.body.decode("utf-8"))
+    except (json.JSONDecodeError, UnicodeDecodeError):
+        return JsonResponse(
+            {
+                "error": "VALIDATION_ERROR",
+                "message": "Request body must be valid JSON.",
+            },
+            status=400,
+        )
+
+    prompt = str(payload.get("prompt", "")).strip()
+    if not prompt:
+        return JsonResponse(
+            {
+                "error": "VALIDATION_ERROR",
+                "message": "Prompt is required.",
+            },
+            status=400,
+        )
+
+    try:
+        guide = await generate_travel_guide(prompt)
+        return JsonResponse(guide, safe=False)
+    except Exception:
+        return JsonResponse(
+            {
+                "error": "GEMINI_API_ERROR",
+                "message": "We had trouble generating the travel guide.",
+            },
+            status=500,
+        )
+
 
 @require_GET
 def locations_list(request):

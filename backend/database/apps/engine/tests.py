@@ -33,6 +33,33 @@ class EngineModelsSmokeTest(TestCase):
 
 
 class EngineApiTest(TestCase):
+	def test_ping_returns_ok(self):
+		response = self.client.get("/api/ping/")
+		self.assertEqual(response.status_code, 200)
+		payload = response.json()
+		self.assertEqual(payload["status"], "ok")
+
+	def test_ping_rejects_post_method(self):
+		response = self.client.post("/api/ping/")
+		self.assertEqual(response.status_code, 405)
+
+	@patch.dict("os.environ", {"GEMINI_API_KEY": "test-key"}, clear=False)
+	def test_llm_health_returns_ok_when_key_is_configured(self):
+		response = self.client.get("/api/health/llm/")
+		self.assertEqual(response.status_code, 200)
+		payload = response.json()
+		self.assertEqual(payload["status"], "ok")
+		self.assertTrue(payload["gemini"]["configured"])
+
+	@patch.dict("os.environ", {}, clear=True)
+	def test_llm_health_returns_503_when_key_is_missing(self):
+		response = self.client.get("/api/health/llm/")
+		self.assertEqual(response.status_code, 503)
+		payload = response.json()
+		self.assertEqual(payload["status"], "error")
+		self.assertEqual(payload["error"], "GEMINI_API_KEY_MISSING")
+		self.assertFalse(payload["gemini"]["configured"])
+
 	def test_locations_list_includes_country_safety_score(self):
 		Location.objects.create(
 			iata_code="LHR",
@@ -122,3 +149,52 @@ class EngineApiTest(TestCase):
 			payload["message"],
 			"We had trouble fetching live weather data for this destination.",
 		)
+
+	@patch("apps.engine.views.generate_travel_guide", new_callable=AsyncMock)
+	def test_generate_guide_returns_payload(self, mock_generate_travel_guide):
+		mock_generate_travel_guide.return_value = {
+			"destinationName": "Lisbon",
+			"summary": "Sunny and pleasant.",
+		}
+
+		response = self.client.post(
+			"/api/generate-guide/",
+			data='{"prompt":"Build a travel guide for Lisbon"}',
+			content_type="application/json",
+		)
+		self.assertEqual(response.status_code, 200)
+		payload = response.json()
+		self.assertEqual(payload["destinationName"], "Lisbon")
+
+	def test_generate_guide_rejects_invalid_json(self):
+		response = self.client.post(
+			"/api/generate-guide/",
+			data="not-json",
+			content_type="application/json",
+		)
+		self.assertEqual(response.status_code, 400)
+		payload = response.json()
+		self.assertEqual(payload["error"], "VALIDATION_ERROR")
+
+	def test_generate_guide_rejects_missing_prompt(self):
+		response = self.client.post(
+			"/api/generate-guide/",
+			data='{"prompt":"   "}',
+			content_type="application/json",
+		)
+		self.assertEqual(response.status_code, 400)
+		payload = response.json()
+		self.assertEqual(payload["error"], "VALIDATION_ERROR")
+
+	@patch("apps.engine.views.generate_travel_guide", new_callable=AsyncMock)
+	def test_generate_guide_returns_500_for_upstream_failure(self, mock_generate_travel_guide):
+		mock_generate_travel_guide.side_effect = Exception("GEMINI_UPSTREAM_ERROR: 500")
+
+		response = self.client.post(
+			"/api/generate-guide/",
+			data='{"prompt":"Build a travel guide for Lisbon"}',
+			content_type="application/json",
+		)
+		self.assertEqual(response.status_code, 500)
+		payload = response.json()
+		self.assertEqual(payload["error"], "GEMINI_API_ERROR")
