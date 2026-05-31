@@ -75,3 +75,6 @@ Thumbs.db
 
 # Template folder
 backend/database/apps/engine/templates/
+
+# Local helper state
+backend/server/.state/
