@@ -1,12 +1,50 @@
 from django.http import JsonResponse
 from django.views.decorators.http import require_GET
 from django.views.decorators.http import require_POST
+from django.views.decorators.csrf import csrf_exempt
 import json
 import os
 
 from .models import Location, SafetyIndex
 from apps.utils.fetch_weather_forecast import fetch_weather_forecast
 from apps.utils.generate_travel_guide import generate_travel_guide
+
+
+GUIDE_REQUIRED_FIELDS = {
+    "destinationName": str,
+    "summary": str,
+    "bestTimeToVisit": str,
+    "topAttractions": list,
+    "foodToTry": list,
+    "transportationTips": list,
+    "safetyNotes": list,
+    "budgetTips": list,
+}
+
+
+def _is_list_of_strings(value):
+    return isinstance(value, list) and all(isinstance(item, str) for item in value)
+
+
+def _validate_guide_schema(guide):
+    if not isinstance(guide, dict):
+        return "Guide response must be a JSON object."
+
+    missing_fields = [field for field in GUIDE_REQUIRED_FIELDS if field not in guide]
+    if missing_fields:
+        return f"Guide response is missing required fields: {', '.join(missing_fields)}."
+
+    for field_name, expected_type in GUIDE_REQUIRED_FIELDS.items():
+        value = guide.get(field_name)
+        if expected_type is list:
+            if not _is_list_of_strings(value):
+                return f"Field '{field_name}' must be an array of strings."
+            continue
+
+        if not isinstance(value, expected_type):
+            return f"Field '{field_name}' must be a string."
+
+    return None
 
 
 @require_GET
@@ -68,6 +106,7 @@ async def get_weather(request, city_name):
             status=500,
         )
 
+@csrf_exempt
 @require_POST
 async def generate_guide(request):
     try:
@@ -93,6 +132,17 @@ async def generate_guide(request):
 
     try:
         guide = await generate_travel_guide(prompt)
+
+        schema_error = _validate_guide_schema(guide)
+        if schema_error:
+            return JsonResponse(
+                {
+                    "error": "GEMINI_INVALID_SCHEMA",
+                    "message": schema_error,
+                },
+                status=502,
+            )
+
         return JsonResponse(guide, safe=False)
     except Exception:
         return JsonResponse(

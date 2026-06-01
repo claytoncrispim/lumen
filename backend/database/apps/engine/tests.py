@@ -155,6 +155,12 @@ class EngineApiTest(TestCase):
 		mock_generate_travel_guide.return_value = {
 			"destinationName": "Lisbon",
 			"summary": "Sunny and pleasant.",
+			"bestTimeToVisit": "April to June",
+			"topAttractions": ["Belem Tower", "Alfama"],
+			"foodToTry": ["Pastel de nata"],
+			"transportationTips": ["Use Viva Viagem card"],
+			"safetyNotes": ["Pickpocketing can happen in crowded trams"],
+			"budgetTips": ["Book accommodation early"],
 		}
 
 		response = self.client.post(
@@ -165,6 +171,67 @@ class EngineApiTest(TestCase):
 		self.assertEqual(response.status_code, 200)
 		payload = response.json()
 		self.assertEqual(payload["destinationName"], "Lisbon")
+
+	@patch("apps.engine.views.generate_travel_guide", new_callable=AsyncMock)
+	def test_generate_guide_is_csrf_exempt_for_json_clients(self, mock_generate_travel_guide):
+		mock_generate_travel_guide.return_value = {
+			"destinationName": "Lisbon",
+			"summary": "Sunny and pleasant.",
+			"bestTimeToVisit": "April to June",
+			"topAttractions": ["Belem Tower", "Alfama"],
+			"foodToTry": ["Pastel de nata"],
+			"transportationTips": ["Use Viva Viagem card"],
+			"safetyNotes": ["Pickpocketing can happen in crowded trams"],
+			"budgetTips": ["Book accommodation early"],
+		}
+		csrf_client = self.client_class(enforce_csrf_checks=True)
+
+		response = csrf_client.post(
+			"/api/generate-guide/",
+			data='{"prompt":"Build a travel guide for Lisbon"}',
+			content_type="application/json",
+		)
+		self.assertEqual(response.status_code, 200)
+		payload = response.json()
+		self.assertEqual(payload["destinationName"], "Lisbon")
+
+	@patch("apps.engine.views.generate_travel_guide", new_callable=AsyncMock)
+	def test_generate_guide_returns_502_for_missing_required_schema_fields(self, mock_generate_travel_guide):
+		mock_generate_travel_guide.return_value = {
+			"destinationName": "Lisbon",
+			"summary": "Sunny and pleasant.",
+		}
+
+		response = self.client.post(
+			"/api/generate-guide/",
+			data='{"prompt":"Build a travel guide for Lisbon"}',
+			content_type="application/json",
+		)
+		self.assertEqual(response.status_code, 502)
+		payload = response.json()
+		self.assertEqual(payload["error"], "GEMINI_INVALID_SCHEMA")
+
+	@patch("apps.engine.views.generate_travel_guide", new_callable=AsyncMock)
+	def test_generate_guide_returns_502_for_invalid_schema_types(self, mock_generate_travel_guide):
+		mock_generate_travel_guide.return_value = {
+			"destinationName": "Lisbon",
+			"summary": "Sunny and pleasant.",
+			"bestTimeToVisit": "April to June",
+			"topAttractions": "Belem Tower",
+			"foodToTry": ["Pastel de nata"],
+			"transportationTips": ["Use Viva Viagem card"],
+			"safetyNotes": ["Pickpocketing can happen in crowded trams"],
+			"budgetTips": ["Book accommodation early"],
+		}
+
+		response = self.client.post(
+			"/api/generate-guide/",
+			data='{"prompt":"Build a travel guide for Lisbon"}',
+			content_type="application/json",
+		)
+		self.assertEqual(response.status_code, 502)
+		payload = response.json()
+		self.assertEqual(payload["error"], "GEMINI_INVALID_SCHEMA")
 
 	def test_generate_guide_rejects_invalid_json(self):
 		response = self.client.post(
