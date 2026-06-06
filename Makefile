@@ -61,3 +61,6 @@ env-init:
 		echo "Created backend/.env from backend/.env.example."; \
 		echo "Now set GEMINI_API_KEY in backend/.env."; \
 	fi
+
+run-frontend:
+	cd frontend && npm run dev
