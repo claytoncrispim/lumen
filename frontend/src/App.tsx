@@ -1,10 +1,46 @@
 import { useState, useRef } from 'react'
+// Components
 import CurrencySelector from './components/CurrencySelector';
 import LoadingSpinner from './components/LoadingSpinner';
 import SearchForm from './components/SearchForm';
-// import TravellerSelector from './components/TravellerSelector';
+// Utilities
+import { fetchWithRetry } from './utils/fetchWithRetry';
+// Types
 import type { TravellerCounts } from './types/TravellerType';
 import './index.css';
+import { ApiError } from './utils/ApiError';
+
+
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL || "http://localhost:8080";
+
+// Helpers
+const callGemini = async(prompt: string) => {
+  try {
+    const res = await fetchWithRetry(
+      `${API_BASE_URL}/generate-guide`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ prompt }),
+      }
+    );
+
+    const data = await res.json();
+
+    if (!data || typeof data !== 'object') {
+      throw new Error('UNEXPECTED_RESPONSE_SHAPE');
+    }
+
+    return data;    
+  } catch (error) {
+    if (error instanceof ApiError) throw error;
+    throw error;
+  }
+}
+
+
 
 // Main application component. Currently a placeholder for future UI development.
 function App() {
