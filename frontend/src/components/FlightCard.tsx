@@ -1,4 +1,4 @@
-import { Plane, ArrowRight } from "lucide-react";
+import { Plane, ArrowRight, Info } from "lucide-react";
 import currencyFormatter from "../utils/currencyFormatter";
 import buildGoogleFlightsUrl from "../utils/buildGoogleFlightsUrl";
 
@@ -44,6 +44,10 @@ interface FlightData {
     from?: string;
     to?: string;
     duration?: string;
+    detail?: string;
+    layoverCity?: string;
+    layoverAirport?: string;
+    bookingLink?: string;
 }
 
 interface PriceData {
@@ -117,22 +121,22 @@ export const FlightCard: React.FC<FlightCardProps> = ({
                     </div>
                 </div>
 
-            {price != null && (
-                <div className="TODO-style-flight-card-price">
-                    <p className="TODO-style-flight-card-price-text">
-                        From
-                    </p>
-                    <p className="TODO-style-flight-card-price-value">
-                        {formattedPrice} / per person
-                    </p>
-                    {totalPrice != null && (
-                        <p className="TODO-style-flight-card-price-total">
-                            Total: {formattedTotalPrice}
+                {/* Price section */}
+                {price != null && (
+                    <div className="TODO-style-flight-card-price">
+                        <p className="TODO-style-flight-card-price-text">
+                            From
                         </p>
-                    )}
-                </div>
-            )}            
-
+                        <p className="TODO-style-flight-card-price-value">
+                            {formattedPrice} / per person
+                        </p>
+                        {totalPrice != null && (
+                            <p className="TODO-style-flight-card-price-total">
+                                Total: {formattedTotalPrice}
+                            </p>
+                        )}
+                    </div>
+                )}            
             </header>
 
             {/* Flight time, duration and stops */}
@@ -165,7 +169,62 @@ export const FlightCard: React.FC<FlightCardProps> = ({
                 </>
             )}
 
+            {((flight as FlightData).detail || (flight as FlightData).layoverCity || (flight as FlightData).layoverAirport) && (
+                <>
+                    {(flight as FlightData).detail && <span>{(flight as FlightData).detail}</span>}
+                    {((flight as FlightData).layoverCity || (flight as FlightData).layoverAirport) && (
+                        <p className="TODO-style-flight-card-extra-details">
+                            {(flight as FlightData).layoverCity && <span>Layover City: {(flight as FlightData).layoverCity}</span>}
+                            {(flight as FlightData).layoverAirport && <span>Layover Airport: {(flight as FlightData).layoverAirport}</span>}
+                        </p>
+                    )}
+                </>
+            )}
+
+            {/* Booking and search actions */}
+            <div className="TODO-style-flight-card-actions">
+                <div>
+                    {(flight as FlightData).bookingLink && (
+                        <a
+                            href={(flight as FlightData).bookingLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="TODO-style-flight-card-booking-link"
+                        >
+                            View deal
+                            <ArrowRight size={14} />
+                        </a>
+                    )}
+                    <a
+                        href={googleFlightsUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="TODO-style-flight-card-google-flights-link"
+                    >
+                        Search on Google Flights                        
+                    </a>
+                </div>
+
+                <span className="TODO-style-flight-card-external-site-note">
+                    Opens external site in a new tab
+                </span>
+                
+                {/* Tooltip trigger */}
+                <div className="TODO-style-flight-card-tooltip-trigger">
+                    <button
+                        className="TODO-style-flight-card-tooltip-button"
+                        aria-label="How this Google Flights link works"
+                        // title="We pre-fill your route, dates and travellers where possible. Google Flights may still adjust details based on your location and availability."
+                    >
+                        <Info size={14} />
+                    </button>
+
+                    {/* Tooltip bubble */}
+                    <div className="TODO-style-flight-card-tooltip-bubble">
+                        We pre-fill your route, dates and travellers where possible. Google Flights may still adjust details based on your location and availability.
+                    </div>
+                </div>
+            </div>
         </article>
     );
 };
-
