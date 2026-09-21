@@ -5,7 +5,7 @@ interface BuildGoogleHotelUrlProps {
     totalTravelers: number;
 }
 
-export const buildGoogleHotelUrl = ({ destination, departureDate, returnDate, totalTravelers }: BuildGoogleHotelUrlProps): string => {
+const buildGoogleHotelsUrl = ({ destination, departureDate, returnDate, totalTravelers }: BuildGoogleHotelUrlProps): string => {
     if (!destination)
         return "https://www.google.com/travel/hotels";    
 
@@ -26,3 +26,4 @@ export const buildGoogleHotelUrl = ({ destination, departureDate, returnDate, to
 
     return `https://www.google.com/travel/hotels/${destination}?q=${encodedQuery}`;
 }
+export default buildGoogleHotelsUrl;

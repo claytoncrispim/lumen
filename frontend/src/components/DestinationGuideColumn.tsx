@@ -6,7 +6,7 @@ import WeatherCard from './WeatherCard';
 import { Sparkles, Info } from 'lucide-react';
 import InfoTooltip from '../utils/InfoTooltip';
 import currencyFormatter from '../utils/currencyFormatter';
-import buildGoogleHotelUrl from '../utils/buildGoogleHotelUrl';
+import buildGoogleHotelsUrl from '../utils/buildGoogleHotelsUrl';
 import buildGooglePackagesUrl from '../utils/buildGooglePackagesUrl';
 
 // --- COMPONENT ---
@@ -78,14 +78,14 @@ const DestinationGuideColumn = ({
     }
 
     // Build accomodation package URLs with the helpers
-    const hotelsUrl = buildGoogleHotelUrl({
+    const hotelsUrl = buildGoogleHotelsUrl({
         destinationName: guide.destinationName,
         departureDate,
         returnDate,
         totalTravellers,
     });
 
-    const packagesUrl = buildGooglePackageUrl({
+    const packagesUrl = buildGooglePackagesUrl({
         originName: guide.originName,
         destinationName: guide.destinationName,
         departureDate,

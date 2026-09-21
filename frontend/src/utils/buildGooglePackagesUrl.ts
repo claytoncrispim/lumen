@@ -6,8 +6,7 @@ interface BuildGooglePackagesUrlProps {
     nights: number;
     totalTravelers: number;
 }
-
-export const buildGooglePackagesUrl = ({ origin, destination, departureDate, returnDate, nights, totalTravelers }: BuildGooglePackagesUrlProps): string => {
+const buildGooglePackagesUrl = ({ origin, destination, departureDate, returnDate, nights, totalTravelers }: BuildGooglePackagesUrlProps): string => {
     if (!origin || !destination)
         return "https://www.google.com/search?q=package+holidays";
 
@@ -33,3 +32,5 @@ export const buildGooglePackagesUrl = ({ origin, destination, departureDate, ret
 
     return `https://www.google.com/travel/packages?q=${encodedQuery}`;
 }
+
+export default buildGooglePackagesUrl;

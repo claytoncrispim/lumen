@@ -2,7 +2,7 @@ interface InfoTooltipProps {
     label: string;
     children: string;
 }
-export const InfoTooltip = ({ label, children }: InfoTooltipProps) => {
+const InfoTooltip = ({ label, children }: InfoTooltipProps) => {
     return (
         <div className="TODO-style-info-tooltip">
             <button
@@ -18,3 +18,5 @@ export const InfoTooltip = ({ label, children }: InfoTooltipProps) => {
         </div>
     );
 };
+
+export default InfoTooltip;
