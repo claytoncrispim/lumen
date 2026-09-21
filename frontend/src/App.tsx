@@ -1,15 +1,17 @@
+// Main application entry point for the Lumen Gemini API Client.
 import { useState, useRef } from 'react'
 // Components
 import CurrencySelector from './components/CurrencySelector';
 import LoadingSpinner from './components/LoadingSpinner';
 import SearchForm from './components/SearchForm';
+import TripSummaryBar from "./components/TripSummaryBar";
 // Utilities
 import { fetchWithRetry } from './utils/fetchWithRetry';
-// Types
-import type { TravellerCounts } from './types/TravellerType';
 import './index.css';
 import { ApiError } from './utils/ApiError';
 import getUserMessage from './utils/getUserMessage';
+// Types
+import type { TravellerCounts } from './types/TravellerType';
 
 
 const API_BASE_URL =
