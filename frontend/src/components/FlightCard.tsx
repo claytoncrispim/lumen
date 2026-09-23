@@ -55,7 +55,7 @@ interface PriceData {
     totalPriceEUR?: number;
 }
 
-export const FlightCard: React.FC<FlightCardProps> = ({
+const FlightCard: React.FC<FlightCardProps> = ({
     flight,    
     selectedCurrency,
     origin,
@@ -228,3 +228,5 @@ export const FlightCard: React.FC<FlightCardProps> = ({
         </article>
     );
 };
+
+export default FlightCard;

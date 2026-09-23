@@ -1,9 +1,9 @@
 interface BuildGooglePackagesUrlProps {
     origin: string;
     destination: string;
-    departureDate: string;
-    returnDate: string;
-    nights: number;
+    departureDate?: string;
+    returnDate?: string;
+    nights?: number;
     totalTravelers: number;
 }
 const buildGooglePackagesUrl = ({ origin, destination, departureDate, returnDate, nights, totalTravelers }: BuildGooglePackagesUrlProps): string => {

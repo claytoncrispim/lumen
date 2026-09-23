@@ -1,7 +1,7 @@
 interface BuildGoogleHotelUrlProps {
     destination: string;
-    departureDate: string;
-    returnDate: string;
+    departureDate?: string;
+    returnDate?: string;
     totalTravelers: number;
 }
 

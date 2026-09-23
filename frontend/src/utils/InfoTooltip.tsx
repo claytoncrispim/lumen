@@ -1,6 +1,8 @@
+import type { ReactNode } from 'react';
+
 interface InfoTooltipProps {
     label: string;
-    children: string;
+    children: ReactNode;
 }
 const InfoTooltip = ({ label, children }: InfoTooltipProps) => {
     return (

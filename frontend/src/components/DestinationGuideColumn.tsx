@@ -1,36 +1,15 @@
-import { useState } from 'react';
 import FlightCard from './FlightCard';
 import InfoSectionCard from './InfoSectionCard';
 import formatDate from '../utils/FormatDate';
 import WeatherCard from './WeatherCard';
 import { Sparkles, Info } from 'lucide-react';
 import InfoTooltip from '../utils/InfoTooltip';
-import currencyFormatter from '../utils/currencyFormatter';
 import buildGoogleHotelsUrl from '../utils/buildGoogleHotelsUrl';
 import buildGooglePackagesUrl from '../utils/buildGooglePackagesUrl';
 
-// --- COMPONENT ---
-/**
- * A column displaying a destination guide with flights, hotels, packages, and comparison info.
- *
- * Props:
- * - titlePrefix: A string prefix for the title (e.g., "Recommended Trip")
- * - guide: An object containing destination guide data
- * - departureDate: The departure date as a string (optional)
- * - returnDate: The return date as a string (optional)
- * - selectedCurrency: The selected currency code (e.g., "USD")
- * - travellers: An object with passenger counts (adults, youngAdults, children, infants)
- * - showHeader: Boolean to control header visibility (default: true)
- * - isBestValue: Boolean to indicate if this destination is the best value (default: false)
- * - weather: An object containing live weather data (optional)
- *
- * Returns:
- * - TSX.Element: The rendered destination guide column component.
- */
-
 interface DestinationGuideColumnProps {
     titlePrefix: string;
-    guide: any; // Replace 'any' with the actual type of the guide object
+    guide: any;
     departureDate?: string;
     returnDate?: string;
     selectedCurrency: string;
@@ -42,7 +21,7 @@ interface DestinationGuideColumnProps {
     };
     showHeader?: boolean;
     isBestValue?: boolean;
-    weather?: any; // Replace 'any' with the actual type of the weather object
+    weather?: any;
 }
 
 const DestinationGuideColumn = ({
@@ -56,17 +35,17 @@ const DestinationGuideColumn = ({
     isBestValue = false,
     weather,
 }: DestinationGuideColumnProps) => {
-
     if (!guide) return null;
 
+    // Derived passenger count used across cards and external search URLs.
     const totalTravellers =
-        (travellers?.adults ?? 0) + // adults or 0 if undefined
-        (travellers?.youngAdults ?? 0) + // young adults or 0 if undefined
-        (travellers?.children ?? 0) + // children or 0 if undefined
-        (travellers?.infants ?? 0); // infants or 0 if undefined
+        (travellers?.adults ?? 0) +
+        (travellers?.youngAdults ?? 0) +
+        (travellers?.children ?? 0) +
+        (travellers?.infants ?? 0);
 
-    // Calculate the number of nights (if both are valid dates)
-    let nights: number | null = null;
+    // Derived trip duration in nights when both dates are valid.
+    let nights: number | undefined;
     if (departureDate && returnDate) {
         const departureD = new Date(departureDate);
         const returnD = new Date(returnDate);
@@ -77,26 +56,26 @@ const DestinationGuideColumn = ({
         }
     }
 
-    // Build accomodation package URLs with the helpers
+    // External booking/search URLs.
     const hotelsUrl = buildGoogleHotelsUrl({
-        destinationName: guide.destinationName,
+        destination: guide.destinationName,
         departureDate,
         returnDate,
-        totalTravellers,
+        totalTravelers: totalTravellers,
     });
 
     const packagesUrl = buildGooglePackagesUrl({
-        originName: guide.originName,
-        destinationName: guide.destinationName,
+        origin: guide.originName,
+        destination: guide.destinationName,
         departureDate,
         returnDate,
         nights,
-        totalTravellers,
+        totalTravelers: totalTravellers,
     });
 
     return (
         <div className="TODO-DestinationGuideColumn-outter-div">
-            {/* Destination Header */}
+            {/* Destination header */}
             {showHeader && (
                 <div className="TODO-DestinationGuideColumn-header-outter-div">
                     <div className="TODO-DestinationGuideColumn-header-inner-div">
@@ -119,7 +98,6 @@ const DestinationGuideColumn = ({
 
                         {isBestValue && (
                             <div className="TODO-best-value">
-                                {/* Best value badge or indicator goes here */}
                                 <div className="TODO-best-value-badge">
                                     <Sparkles size={12} className="TODO-sparkles-icon" />
                                     <span>Best value</span>
@@ -133,7 +111,6 @@ const DestinationGuideColumn = ({
                                     </button>
                                 </div>
 
-                                {/* Tooltip */}
                                 <div className="TODO-best-value-tooltip">
                                     <p className="TODO-best-value-tooltip-title">How we pick "Best value"</p>
                                     <p className="TODO-best-value-tooltip-content">
@@ -147,7 +124,7 @@ const DestinationGuideColumn = ({
                 </div>
             )}
 
-            {/* Flights from Gemini */}
+            {/* Flight recommendations */}
             {guide?.flights?.length > 0 && (
                 <section className="TODO-flights-from-gemini-section">
                     <h4 className="TODO-flights-from-gemini-title">
@@ -155,16 +132,15 @@ const DestinationGuideColumn = ({
                         <span className="TODO-flights-from-gemini-count"> *pp (price per person)</span>
                     </h4>
                     <div className="TODO-flights-from-gemini">
-                        {/* Render flight details here */}
                         {guide?.flights?.map((f: any, idx: number) => (
                             <FlightCard
                                 key={f.id || `${f.airline}-${f.flightNumber || idx}`}
                                 flight={f}
                                 selectedCurrency={selectedCurrency}
-                                originName={guide?.originName || origin || ""}
-                                destinationName={guide?.destinationName || ""}
-                                departureDate={departureDate}
-                                returnDate={returnDate}
+                                origin={guide?.originName || ""}
+                                destination={guide?.destinationName || ""}
+                                departureDate={departureDate || ""}
+                                returnDate={returnDate || ""}
                                 totalTravellers={totalTravellers}
                             />
                         ))}
@@ -229,11 +205,11 @@ const DestinationGuideColumn = ({
                 </div>
             )}
 
-            {/* Comparison Mode */}
+            {/* Comparison insight */}
             {guide?.comparisonInfo && (
                 <InfoSectionCard title="What's the best option?" emoji="⚖️">
                     {guide?.comparisonInfo}
-                </InfoSectionCard>              
+                </InfoSectionCard>
             )}
         </div>
     )

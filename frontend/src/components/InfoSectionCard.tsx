@@ -1,10 +1,12 @@
+import type { ReactNode } from 'react';
+
 interface InfoSectionCardProps {
     title: string;
     emoji: string;
-    children: string;
+    children: ReactNode;
 }
 
-export const InfoSectionCard = ({ title, emoji, children }: InfoSectionCardProps) => {
+const InfoSectionCard: React.FC<InfoSectionCardProps> = ({ title, emoji, children }) => {
     return (
         <section className="TODO-style-info-section-card">
             <header className="TODO-style-info-section-card-header">
@@ -15,3 +17,5 @@ export const InfoSectionCard = ({ title, emoji, children }: InfoSectionCardProps
         </section>
     );
 };
+
+export default InfoSectionCard;
