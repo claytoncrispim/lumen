@@ -5,6 +5,7 @@ import CurrencySelector from './components/CurrencySelector';
 import LoadingSpinner from './components/LoadingSpinner';
 import SearchForm from './components/SearchForm';
 import TripSummaryBar from "./components/TripSummaryBar";
+import DestinationGuideColumn from './components/DestinationGuideColumn';
 // Utilities
 import { fetchWithRetry } from './utils/fetchWithRetry';
 import './index.css';
@@ -120,6 +121,73 @@ const buildGeminiPrompt = ({
 
         Ensure all prices reflect the selected currency: ${selectedCurrency}.
     `;
+};
+
+// Function to get the cheapest flight price from an array of flights
+const getCheapestFlightPrice = (guide) => {
+  if (!guide || !Array.isArray(guide.flights) || guide.flights.length === 0) {
+    return null;
+  }
+
+  let min = null;
+
+  for (const f of guide.flights) {
+    // Possible variety of field Gemini might use
+    let raw = 
+      f.totalFlightPrice ??
+      f.totalPriceEUR ??
+      f.totalPrice ??
+      f.flightTotalPrice ??
+      f.flightPrice ??
+      f.flightPricePerPerson ??
+      f.priceEUR ??
+      f.price ??
+      null;
+
+    let price = null;
+
+    if (typeof raw === 'number') {
+      price = raw;
+    } else if (typeof raw === 'string') {
+      // Strip currency symbols and text, keep digits / separators
+      const cleaned = raw.replace(/[^\d.,-]/g, "").replace(",", ".");
+      const parsed = parseFloat(cleaned);
+      if (!isNaN(parsed)) {
+        price = parsed;
+      }
+    }
+
+    if (typeof price === "number" && !isNaN(price)) {
+      if (min === null || price < min) {
+        min = price;
+      }
+    }
+  }
+
+  return min;
+};
+
+// Fetches weather forecast from backend
+const fetchWeatherForDestination = async (destination: string) => {
+  if (!destination) return null;
+
+  try {
+    const res = await fetchWithRetry(
+            `${API_BASE_URL}/weather?destination=${encodeURIComponent(
+                destination
+            )}`
+        );
+
+        const data = await res.json();
+        return data;
+  } catch (err) {
+    if (err instanceof ApiError) {
+            console.warn("Weather API error:", err.status, err.code, err.message);
+        } else {
+            console.warn("Weather fetch failed:", err);
+        }
+        return null;
+  }
 };
 
 
