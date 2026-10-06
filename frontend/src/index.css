@@ -95,6 +95,8 @@ body {
   position: sticky;
   top: 0;
   z-index: 40;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -144,6 +146,8 @@ body {
 
 @media (max-width: 700px) {
   .app-navbar {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     padding: 14px 16px;
     flex-wrap: wrap;
     justify-content: center;
