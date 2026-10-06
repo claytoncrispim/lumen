@@ -36,15 +36,21 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="TODO-title">Lumen - Gemini API Client</h1>
-      <p className="TODO-description">
-        This is a placeholder for the main application interface. Future UI components will be added here.
-      </p>
-      <main>
+      <header className="app-navbar">
+        <div className="app-brand-lockup">
+          <h1 className="app-brand">Lumen</h1>
+          <p className="app-brand-tagline">Travel Decision Engine</p>
+        </div>
         <CurrencySelector
           selectedCurrency={selectedCurrency}
           onCurrencyChange={setSelectedCurrency}
         />
+      </header>
+
+      <main className="app-main">
+        <p className="TODO-description">
+          This is a placeholder for the main application interface. Future UI components will be added here.
+        </p>
         {/* <TravellerSelector
           initialTravellers={initialTravellers}
           onApply={(travellers) => console.log(travellers)}

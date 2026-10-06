@@ -4,7 +4,7 @@ import type { CurrencyOption } from '../types/CurrencyType';
 
 /**
  * Currency selector fed by pre-normalized currency options.
- * Styling hooks are intentionally left as TODO markers for upcoming UI work.
+ * Uses concrete class hooks so it can share the app neon theme.
  */
 interface CurrencySelectorProps {
     selectedCurrency: string;
@@ -38,31 +38,35 @@ const CurrencySelector = ({ selectedCurrency, onCurrencyChange }: CurrencySelect
     }, [selectedCurrency, onCurrencyChange]);
 
     if (isLoading) {
-        return <div className="TODO-loading-currencies">Loading currencies...</div>;
+        return <div className="currency-selector-status">Loading currencies...</div>;
     }
 
     if (currencies.length === 0) {
-        return <div className="TODO-no-currencies">No currencies available.</div>;
+        return <div className="currency-selector-status">No currencies available.</div>;
     }
 
     return (
-        <select
-            value={selectedCurrency}
-            onChange={(e) => onCurrencyChange(e.target.value)}
-            data-style-hook="currency-select"
-            className="TODO-currency-select"
-        >
-            {currencies.map((currency) => (
-                <option
-                    key={currency.code}
-                    value={currency.code}
-                    data-style-hook="currency-option"
-                    className="TODO-currency-option"
-                >
-                    {currency.name} ({currency.symbol})
-                </option>
-            ))}
-        </select>
+        <div className="currency-select-wrap">
+            <select
+                value={selectedCurrency}
+                onChange={(e) => onCurrencyChange(e.target.value)}
+                data-style-hook="currency-select"
+                className="currency-select"
+                aria-label="Select currency"
+            >
+                {currencies.map((currency) => (
+                    <option
+                        key={currency.code}
+                        value={currency.code}
+                        data-style-hook="currency-option"
+                        className="currency-option"
+                    >
+                        {currency.name} ({currency.symbol})
+                    </option>
+                ))}
+            </select>
+            <span className="currency-select-chevron" aria-hidden="true">▾</span>
+        </div>
     );
 };
 
