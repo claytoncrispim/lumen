@@ -78,3 +78,6 @@ backend/database/apps/engine/templates/
 
 # Local helper state
 backend/server/.state/
+
+# Internal notes
+TODO next:.md
