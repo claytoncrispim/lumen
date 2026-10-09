@@ -11,15 +11,19 @@ import { ApiError } from './utils/ApiError';
 import formatDate from './utils/FormatDate';
 
 // Base URL for Render backend (To be configured)
-const API_BASE_URL = import.meta.env.VITE_RENDER_API_BASE_URL;
+const API_BASE_URL = import.meta.env.VITE_RENDER_API_BASE_URL ?? '';
 
+const buildApiUrl = (path: string) => {
+  const base = API_BASE_URL.replace(/\/+$/, '');
+  return `${base}${path}`;
+};
 
 // Helpers
 //Gemini API call helper function
 const callGemini = async (prompt: string) => {
   try {
     const res = await fetchWithRetry(
-      `${API_BASE_URL}/generatre-guide`,
+      buildApiUrl('/api/generate-guide/'),
       {
         method: 'POST',
         headers: {
@@ -129,21 +133,21 @@ const getCheapestFlightPrice = (guide: any) => {
   if (!guide || !Array.isArray(guide.flights) || guide.flights.length === 0) {
     return null;
   }
-  
-  let min  = null;
+
+  let min = null;
   for (const f of guide.flights) {
     // Try a bunch of possible fields Gemini might use
-    let raw = 
-        f.totalFlightPrice ??
-        f.totalPriceEUR ??
-        f.totalPrice ??
-        f.flightTotalPrice ??
-        f.flightPrice ??
-        f.flightPricePerPerson ??
-        f.priceEUR ??
-        f.price ??
-        null;
-    
+    let raw =
+      f.totalFlightPrice ??
+      f.totalPriceEUR ??
+      f.totalPrice ??
+      f.flightTotalPrice ??
+      f.flightPrice ??
+      f.flightPricePerPerson ??
+      f.priceEUR ??
+      f.price ??
+      null;
+
     let price = null;
 
     if (typeof raw === "number") {
@@ -161,10 +165,23 @@ const getCheapestFlightPrice = (guide: any) => {
       if (min === null || price < min) {
         min = price;
       }
-    }    
+    }
   }
 
   return min;
+};
+
+const resolveLocation = async (query: string) => {
+  const trimmedQuery = query?.trim();
+  if (!trimmedQuery) return null;
+
+  const res = await fetchWithRetry(
+    buildApiUrl(`/api/locations/resolve/query=${encodeURIComponent(trimmedQuery)}/`)
+  );
+
+  const data = await res.json();
+  if (!Array.isArray(data) || data.length === 0) return null;
+  return data[0];
 };
 
 // Weather fetcher helper
@@ -173,13 +190,11 @@ const fetchWeatherForDestination = async (destination: string) => {
 
   try {
     const res = await fetchWithRetry(
-      `${API_BASE_URL}/weather?destination=${encodeURIComponent(
-        destination
-      )}`
+      buildApiUrl(`/api/weather/${encodeURIComponent(destination.trim())}/`)
     );
-    
+
     const data = await res.json();
-    return data;   
+    return data;
   } catch (err) {
     if (err instanceof ApiError) {
       console.warn("Weather API error:", err.status, err.code, err.message);
@@ -213,29 +228,54 @@ function App() {
   // Request and feedback state
   const [loading, setLoading] = useState(false);
   const [loadingLabel] = useState('Loading...');
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
 
   // Guide data state
-  const [guideData, setGuideData] = useState(null);
-  const [guideDataSecondary, setGuideDataSecondary] = useState(null);
-
-  // Saved trips state
-  const [savedTrip, setSavedTrip] = useState([]);
+  const [guideData, setGuideData] = useState<any>(null);
 
   // Weather state
-  const [weatherPrimary, setWeatherPrimary] = useState(null);
-  const [weatherSecondary, setWeatherSecondary] = useState(null);
+  const [weatherPrimary, setWeatherPrimary] = useState<any>(null);
 
-  // Per-section loading flags
-  const [componentsLoading, setComponentsLoading] = useState({
-    weatherPrimary: false,
-    weatherSecondary: false,
-    airport: false,
-    flightsA: false,
-    flightsB: false,
-    guidePrimary: false,
-    guideSecondary: false,
-  });
+  const handleGetGuide = async () => {
+    if (!origin || !destination || !departureDate || !returnDate) {
+      setError('Please complete the required trip details before searching.');
+      return;
+    }
+
+    setLoading(true);
+    setError(null);
+
+    try {
+      const resolvedDestination = await resolveLocation(destination);
+      const resolvedOrigin = await resolveLocation(origin);
+      const finalDestination = resolvedDestination?.city_name || destination;
+      const finalOrigin = resolvedOrigin?.city_name || origin;
+
+      const weatherSummary = await fetchWeatherForDestination(finalDestination);
+      const weatherHeadline = weatherSummary?.summary?.headline || weatherSummary?.summary || '';
+
+      const prompt = buildPrompt({
+        origin: finalOrigin,
+        destination: finalDestination,
+        departureDate,
+        returnDate,
+        travellers,
+        nights: calculateNights(departureDate, returnDate),
+        budgetLevel,
+        selectedCurrency,
+        weatherSummary: weatherHeadline,
+      });
+
+      const guide = await callGemini(prompt);
+      setGuideData(guide);
+      setWeatherPrimary(weatherSummary);
+    } catch (err) {
+      console.error('Guide generation failed:', err);
+      setError(err instanceof Error ? err.message : 'Unable to generate the travel guide.');
+    } finally {
+      setLoading(false);
+    }
+  };
 
   // Refs
   const searchFormRef = useRef<HTMLDivElement>(null);
@@ -282,15 +322,38 @@ function App() {
             setTravellers={setTravellers}
             budgetLevel={budgetLevel}
             setBudgetLevel={setBudgetLevel}
-            handleGetGuide={() => console.log('Get Guide clicked (Placeholder for future functionality)')}
+            handleGetGuide={handleGetGuide}
             loading={loading}
             loadingLabel={loadingLabel}
           />
         </div>
 
-        {/* Helper tip - only before the first result is displayed and when there is no error */}
+        {error && (
+          <div className="TODO-error-banner" role="alert">
+            {error}
+          </div>
+        )}
 
+        {weatherPrimary && (
+          <section className="TODO-weather-summary">
+            <h3>Weather for {destination || 'your destination'}</h3>
+            <p>{weatherPrimary?.summary?.headline || weatherPrimary?.summary || 'Weather available.'}</p>
+          </section>
+        )}
 
+        {guideData && (
+          <section className="TODO-guide-summary">
+            <h3>Travel guide preview</h3>
+            <p>
+              Cheapest flight option: {
+                getCheapestFlightPrice(guideData) !== null
+                  ? `$${getCheapestFlightPrice(guideData)}`
+                  : 'Not available yet'
+              }
+            </p>
+            <pre>{JSON.stringify(guideData, null, 2)}</pre>
+          </section>
+        )}
 
       </main>
     </div>
