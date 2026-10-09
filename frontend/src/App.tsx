@@ -63,6 +63,7 @@ const calculateNights = (start: string, end: string): number | null => {
 interface BuildPromptParams {
   origin: string;
   destination: string;
+  compareDestination?: string;
   departureDate: string;
   returnDate: string;
   travellers: TravellerCounts;
@@ -75,6 +76,7 @@ interface BuildPromptParams {
 const buildPrompt = ({
   origin,
   destination,
+  compareDestination,
   departureDate,
   returnDate,
   travellers,
@@ -91,6 +93,7 @@ const buildPrompt = ({
     Trip input:
     - Origin: ${origin}
     - Destination: ${destination}
+    ${compareDestination ? `- Comparison destination: ${compareDestination}\n` : ''}
     - Dates: ${formatDate({ dateString: departureDate })} to ${formatDate({ dateString: returnDate })}
     - Travellers: ${JSON.stringify(travellers)}
     - Trip length in nights: ${nights !== null ? nights : "Not specified"}
@@ -235,6 +238,7 @@ function App() {
 
   // Weather state
   const [weatherPrimary, setWeatherPrimary] = useState<any>(null);
+  const [weatherSecondary, setWeatherSecondary] = useState<any>(null);
 
   const handleGetGuide = async () => {
     if (!origin || !destination || !departureDate || !returnDate) {
@@ -251,12 +255,21 @@ function App() {
       const finalDestination = resolvedDestination?.city_name || destination;
       const finalOrigin = resolvedOrigin?.city_name || origin;
 
+      const finalCompareDestination = compareDestination
+        ? ((await resolveLocation(compareDestination))?.city_name || compareDestination)
+        : '';
+
       const weatherSummary = await fetchWeatherForDestination(finalDestination);
       const weatherHeadline = weatherSummary?.summary?.headline || weatherSummary?.summary || '';
+
+      const compareWeather = finalCompareDestination
+        ? await fetchWeatherForDestination(finalCompareDestination)
+        : null;
 
       const prompt = buildPrompt({
         origin: finalOrigin,
         destination: finalDestination,
+        compareDestination: finalCompareDestination,
         departureDate,
         returnDate,
         travellers,
@@ -269,6 +282,7 @@ function App() {
       const guide = await callGemini(prompt);
       setGuideData(guide);
       setWeatherPrimary(weatherSummary);
+      setWeatherSecondary(compareWeather);
     } catch (err) {
       console.error('Guide generation failed:', err);
       setError(err instanceof Error ? err.message : 'Unable to generate the travel guide.');
@@ -338,6 +352,13 @@ function App() {
           <section className="TODO-weather-summary">
             <h3>Weather for {destination || 'your destination'}</h3>
             <p>{weatherPrimary?.summary?.headline || weatherPrimary?.summary || 'Weather available.'}</p>
+          </section>
+        )}
+
+        {weatherSecondary && (
+          <section className="TODO-weather-summary">
+            <h3>Comparison weather for {compareDestination || 'your compare destination'}</h3>
+            <p>{weatherSecondary?.summary?.headline || weatherSecondary?.summary || 'Weather available.'}</p>
           </section>
         )}
 
