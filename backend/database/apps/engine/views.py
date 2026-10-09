@@ -4,6 +4,8 @@ from django.views.decorators.http import require_POST
 from django.views.decorators.csrf import csrf_exempt
 import json
 import os
+import re
+import unicodedata
 
 from .models import Location, SafetyIndex
 from apps.utils.fetch_weather_forecast import fetch_weather_forecast
@@ -178,26 +180,98 @@ def locations_list(request):
 
     return JsonResponse(data, safe=False)
 
+def _normalize_search_text(value):
+    if value is None:
+        return ""
+
+    normalized = unicodedata.normalize("NFKD", str(value).lower())
+    normalized = "".join(ch for ch in normalized if not unicodedata.combining(ch))
+    normalized = normalized.replace("&", " and ")
+    normalized = normalized.replace("-", " ").replace("_", " ")
+    normalized = re.sub(r"[^a-z0-9\s]", " ", normalized)
+    return " ".join(normalized.split())
+
+
+def _serialize_location(location):
+    location_country_code = (location.country_code or "").strip().upper()
+    safety = SafetyIndex.objects.filter(country_code__iexact=location_country_code).first()
+
+    return {
+        "iata_code": location.iata_code,
+        "airport_name": location.airport_name,
+        "city_name": (location.city_name or "").strip().title(),
+        "country_name": location.country_name,
+        "country_code": location_country_code,
+        "safety_score": safety.score if safety else None,
+    }
+
+
+def _location_match_score(location, query):
+    query_norm = _normalize_search_text(query)
+    if not query_norm:
+        return 0
+
+    city_norm = _normalize_search_text(location.city_name)
+    airport_norm = _normalize_search_text(location.airport_name)
+    country_norm = _normalize_search_text(location.country_name)
+    iata_norm = _normalize_search_text(location.iata_code)
+
+    compact_query = query_norm.replace(" ", "")
+    compact_city = city_norm.replace(" ", "")
+    compact_airport = airport_norm.replace(" ", "")
+    compact_country = country_norm.replace(" ", "")
+
+    if query_norm == city_norm:
+        return 100
+    if query_norm in city_norm:
+        return 90
+    if query_norm == airport_norm:
+        return 85
+    if query_norm in airport_norm:
+        return 80
+    if query_norm == iata_norm:
+        return 95
+    if query_norm in iata_norm:
+        return 70
+    if query_norm == country_norm:
+        return 60
+    if query_norm in country_norm:
+        return 55
+    if compact_query == compact_city:
+        return 75
+    if compact_query in compact_city:
+        return 65
+    if compact_query in compact_airport:
+        return 60
+    if compact_query in compact_country:
+        return 50
+    return 0
+
+
 @require_GET
 def location_detail(request, city_name):
-    city_name = Location.objects.filter(city_name__iexact=city_name)
-    if not city_name.exists():
+    locations = Location.objects.filter(city_name__iexact=city_name)
+    if not locations.exists():
         return JsonResponse({"error": f"No location found for city '{city_name}'"}, status=404)
-    
-    data = []
-    for location in city_name:
-        location_city_name = (location.city_name or "").strip().capitalize()
-        location_country_code = (location.country_code or "").strip().upper()
-        safety = SafetyIndex.objects.filter(country_code__iexact=location_country_code).first()
-        data.append({
-            "iata_code": location.iata_code,
-            "airport_name": location.airport_name,
-            "city_name": location_city_name,
-            "country_name": location.country_name,
-            "country_code": location_country_code,
-            "safety_score": safety.score if safety else None,
-        })
 
+    return JsonResponse([_serialize_location(location) for location in locations], safe=False)
+
+
+@require_GET
+def location_airport_resolve(request, query):
+    raw_query = (query or "").strip()
+    if not raw_query:
+        return JsonResponse({"error": "QUERY_REQUIRED", "message": "A destination query is required."}, status=400)
+
+    matches = []
+    for location in Location.objects.all():
+        score = _location_match_score(location, raw_query)
+        if score > 0:
+            matches.append((score, location))
+
+    if not matches:
+        return JsonResponse({"error": f"No location found for query '{raw_query}'"}, status=404)
+
+    matches.sort(key=lambda item: (-item[0], (item[1].city_name or "").lower()))
+    data = [_serialize_location(location) for _, location in matches[:10]]
     return JsonResponse(data, safe=False)
-
-

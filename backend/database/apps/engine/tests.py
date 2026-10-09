@@ -101,6 +101,31 @@ class EngineApiTest(TestCase):
 		response = self.client.post("/api/locations/", data={"dummy": "value"})
 		self.assertEqual(response.status_code, 405)
 
+	def test_location_resolve_handles_partial_and_formatted_city_names(self):
+		Location.objects.create(
+			iata_code="JFK",
+			airport_name="John F. Kennedy International Airport",
+			city_name="New York",
+			country_name="United States",
+			country_code="US",
+		)
+		SafetyIndex.objects.create(
+			country_code="US",
+			country_name="United States",
+			score=72,
+			legal_status="General legal protections are in place.",
+			social_vibe="Large urban areas are generally welcoming.",
+			travel_alerts="",
+		)
+
+		response = self.client.get("/api/locations/resolve/query=new-york/")
+		self.assertEqual(response.status_code, 200)
+
+		payload = response.json()
+		self.assertTrue(payload)
+		self.assertEqual(payload[0]["city_name"], "New York")
+		self.assertEqual(payload[0]["iata_code"], "JFK")
+
 	@patch("apps.engine.views.fetch_weather_forecast", new_callable=AsyncMock)
 	def test_get_weather_returns_payload(self, mock_fetch_weather_forecast):
 		mock_fetch_weather_forecast.return_value = {
