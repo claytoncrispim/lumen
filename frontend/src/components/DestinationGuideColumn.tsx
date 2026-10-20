@@ -37,6 +37,13 @@ const DestinationGuideColumn = ({
 }: DestinationGuideColumnProps) => {
     if (!guide) return null;
 
+    const originName = guide?.query?.origin?.cityName || '';
+    const destinationName = guide?.outputViewA?.destination?.cityName || '';
+    const flights = guide?.outputViewA?.resultsCards?.flights || [];
+    const hotels = guide?.outputViewA?.resultsCards?.hotels || [];
+    const packageDeals = guide?.outputViewA?.resultsCards?.packageDeals || [];
+    const comparisonInfo = guide?.comparison?.versusPills?.winner?.reason || '';
+
     // Derived passenger count used across cards and external search URLs.
     const totalTravellers =
         (travellers?.adults ?? 0) +
@@ -58,15 +65,15 @@ const DestinationGuideColumn = ({
 
     // External booking/search URLs.
     const hotelsUrl = buildGoogleHotelsUrl({
-        destination: guide.destinationName,
+        destination: destinationName,
         departureDate,
         returnDate,
         totalTravelers: totalTravellers,
     });
 
     const packagesUrl = buildGooglePackagesUrl({
-        origin: guide.originName,
-        destination: guide.destinationName,
+        origin: originName,
+        destination: destinationName,
         departureDate,
         returnDate,
         nights,
@@ -84,9 +91,9 @@ const DestinationGuideColumn = ({
                                 {titlePrefix}
                             </p>
                             <h3 className="TODO-origin-name">
-                                {guide.originName
-                                    ? `${guide.originName} → ${guide.destinationName}`
-                                    : guide.destinationName
+                                {originName
+                                    ? `${originName} → ${destinationName}`
+                                    : destinationName
                                 }
                             </h3>
                             {departureDate && returnDate && (
@@ -125,20 +132,20 @@ const DestinationGuideColumn = ({
             )}
 
             {/* Flight recommendations */}
-            {guide?.flights?.length > 0 && (
+            {flights.length > 0 && (
                 <section className="TODO-flights-from-gemini-section">
                     <h4 className="TODO-flights-from-gemini-title">
                         ✈️ Flight options
                         <span className="TODO-flights-from-gemini-count"> *pp (price per person)</span>
                     </h4>
                     <div className="TODO-flights-from-gemini">
-                        {guide?.flights?.map((f: any, idx: number) => (
+                        {flights.map((f: any, idx: number) => (
                             <FlightCard
                                 key={f.id || `${f.airline}-${f.flightNumber || idx}`}
                                 flight={f}
                                 selectedCurrency={selectedCurrency}
-                                origin={guide?.originName || ""}
-                                destination={guide?.destinationName || ""}
+                                origin={originName}
+                                destination={destinationName}
                                 departureDate={departureDate || ""}
                                 returnDate={returnDate || ""}
                                 totalTravellers={totalTravellers}
@@ -152,10 +159,17 @@ const DestinationGuideColumn = ({
             {weather && <WeatherCard weather={weather} />}
 
             {/* Hotels */}
-            {guide?.hotelInfo && (
+            {hotels.length > 0 && (
                 <div className="TODO-hotels-section">
                     <InfoSectionCard title="Where to stay" emoji="🏨" >
-                        {guide?.hotelInfo}
+                        <ul>
+                            {hotels.map((hotel: any, idx: number) => (
+                                <li key={`${hotel.name || 'hotel'}-${idx}`}>
+                                    <strong>{hotel.name}</strong>{hotel.priceRange ? ` (${hotel.priceRange})` : ''}
+                                    {hotel.inclusiveNotes ? ` - ${hotel.inclusiveNotes}` : ''}
+                                </li>
+                            ))}
+                        </ul>
                         <div className="TODO-hotel-info">
                             <a
                                 href={hotelsUrl}
@@ -163,14 +177,14 @@ const DestinationGuideColumn = ({
                                 rel="noopener noreferrer"
                                 className="TODO-hotel-link"
                             >
-                                Search hotels in {guide?.destinationName}
+                                Search hotels in {destinationName}
                             </a>
                             <span className="TODO-hotel-note">
                                 *Prices are subject to change
                                 (Booking.com)
                             </span>
                             <InfoTooltip label="How the hotel search link works">
-                                We open a generic hotel search for {guide.destinationName}.
+                                We open a generic hotel search for {destinationName}.
                                 You can adjust dates, guests and filters directly on the booking site.
                             </InfoTooltip>
                         </div>
@@ -179,10 +193,19 @@ const DestinationGuideColumn = ({
             )}
 
             {/* Packages */}
-            {guide?.travelPackages && (
+            {packageDeals.length > 0 && (
                 <div className="TODO-packages-section">
                     <InfoSectionCard title="Travel Packages" emoji="🧳">
-                        {guide?.travelPackages}
+                        <ul>
+                            {packageDeals.map((travelPackage: any, idx: number) => (
+                                <li key={`${travelPackage.title || 'package'}-${idx}`}>
+                                    <strong>{travelPackage.title}</strong>{travelPackage.priceRange ? ` (${travelPackage.priceRange})` : ''}
+                                    {Array.isArray(travelPackage.inclusions) && travelPackage.inclusions.length > 0
+                                        ? ` - Includes: ${travelPackage.inclusions.join(', ')}`
+                                        : ''}
+                                </li>
+                            ))}
+                        </ul>
                         <div className="TODO-travel-packages">
                             <a
                                 href={packagesUrl}
@@ -190,14 +213,14 @@ const DestinationGuideColumn = ({
                                 rel="noopener noreferrer"
                                 className="TODO-travel-packages-link"
                             >
-                                Search travel packages for {guide?.destinationName}
+                                Search travel packages for {destinationName}
                             </a>
                             <span className="TODO-travel-packages-note">
                                 *Prices are subject to change
                                 (External package providers)
                             </span>
                             <InfoTooltip label="How the travel packages search link works">
-                                We open a generic travel packages search for {guide.destinationName}.
+                                We open a generic travel packages search for {destinationName}.
                                 Results and availability depend on each travel provider.
                             </InfoTooltip>
                         </div>
@@ -206,9 +229,9 @@ const DestinationGuideColumn = ({
             )}
 
             {/* Comparison insight */}
-            {guide?.comparisonInfo && (
+            {comparisonInfo && (
                 <InfoSectionCard title="What's the best option?" emoji="⚖️">
-                    {guide?.comparisonInfo}
+                    {comparisonInfo}
                 </InfoSectionCard>
             )}
         </div>

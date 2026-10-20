@@ -20,7 +20,7 @@ import buildGoogleFlightsUrl from "../utils/buildGoogleFlightsUrl";
  */
 
 interface FlightCardProps {
-    flight: string;    
+    flight: FlightData;    
     selectedCurrency: string;
     origin: string;
     destination: string;
@@ -33,10 +33,12 @@ interface FlightData {
     flight?: string;
     airline?: string;
     flightNumber?: string;
+    rank?: number;
     flightPrice?: number;
     priceEUR?: number;
     price?: number;
-    flightPricePerPerson?: number;
+    flightPricePerPerson?: number | { amount?: number; currency?: string };
+    totalFlightPrice?: number | { amount?: number; currency?: string };
     departureAirport?: string;
     arrivalAirport?: string;
     departureTime?: string;
@@ -48,11 +50,18 @@ interface FlightData {
     layoverCity?: string;
     layoverAirport?: string;
     bookingLink?: string;
+    bookingUrl?: string;
 }
 
 interface PriceData {
     totalPrice?: number;
     totalPriceEUR?: number;
+}
+
+const toAmount = (value: number | { amount?: number; currency?: string } | undefined) => {
+    if (typeof value === 'number') return value;
+    if (value && typeof value === 'object' && typeof value.amount === 'number') return value.amount;
+    return null;
 }
 
 const FlightCard: React.FC<FlightCardProps> = ({
@@ -86,13 +95,14 @@ const FlightCard: React.FC<FlightCardProps> = ({
 
     // Support both older and newer field names from Gemini
     const price = 
-        (flight as FlightData).flightPrice ??
-        (flight as FlightData).priceEUR ??
-        (flight as FlightData).price ??
-        (flight as FlightData).flightPricePerPerson ??
+        toAmount(flight.flightPricePerPerson) ??
+        flight.flightPrice ??
+        flight.priceEUR ??
+        flight.price ??
         0;
     
     const totalPrice =         
+        toAmount(flight.totalFlightPrice) ??
         (flight as PriceData).totalPrice ??
         (flight as PriceData).totalPriceEUR ??
         0;    
@@ -100,7 +110,7 @@ const FlightCard: React.FC<FlightCardProps> = ({
     const formattedPrice = currencyFormatter("en-US", selectedCurrency, price);
     const formattedTotalPrice = currencyFormatter("en-US", selectedCurrency, totalPrice);
 
-    const hasTimes = (flight as FlightData).departureTime && (flight as FlightData).arrivalTime;
+    const hasTimes = flight.departureTime && flight.arrivalTime;
 
     return (
         <article className="TODO-style-flight-card">
@@ -116,7 +126,7 @@ const FlightCard: React.FC<FlightCardProps> = ({
                         </h4>
                         {/* Flight Number */}
                         <p className="TODO-style-flight-card-airline-flight-text">
-                            {(flight as FlightData).flight && <>Flight {(flight as FlightData).flight}</>}            
+                            {(flight.flightNumber || flight.flight) && <>Flight {flight.flightNumber || flight.flight}</>}            
                         </p>
                     </div>
                 </div>
@@ -148,7 +158,7 @@ const FlightCard: React.FC<FlightCardProps> = ({
                                 Departure
                             </span>
                             <span className="TODO-style-flight-card-time-value">
-                                {(flight as FlightData).departureTime}
+                                {flight.departureTime}
                             </span>
                         </div>
                         <ArrowRight className="TODO-style-flight-card-time-arrow" size={24} />
@@ -157,25 +167,25 @@ const FlightCard: React.FC<FlightCardProps> = ({
                                 Arrival
                             </span>
                             <span className="TODO-style-flight-card-time-value">
-                                {(flight as FlightData).arrivalTime}
+                                {flight.arrivalTime}
                             </span>
                         </div>
                     </div>
-                    {(flight as FlightData).duration && (
+                    {flight.duration && (
                         <span className="TODO-style-flight-card-duration">
-                            Duration: {(flight as FlightData).duration}
+                            Duration: {flight.duration}
                         </span>
                     )}
                 </>
             )}
 
-            {((flight as FlightData).detail || (flight as FlightData).layoverCity || (flight as FlightData).layoverAirport) && (
+            {(flight.detail || flight.layoverCity || flight.layoverAirport) && (
                 <>
-                    {(flight as FlightData).detail && <span>{(flight as FlightData).detail}</span>}
-                    {((flight as FlightData).layoverCity || (flight as FlightData).layoverAirport) && (
+                    {flight.detail && <span>{flight.detail}</span>}
+                    {(flight.layoverCity || flight.layoverAirport) && (
                         <p className="TODO-style-flight-card-extra-details">
-                            {(flight as FlightData).layoverCity && <span>Layover City: {(flight as FlightData).layoverCity}</span>}
-                            {(flight as FlightData).layoverAirport && <span>Layover Airport: {(flight as FlightData).layoverAirport}</span>}
+                            {flight.layoverCity && <span>Layover City: {flight.layoverCity}</span>}
+                            {flight.layoverAirport && <span>Layover Airport: {flight.layoverAirport}</span>}
                         </p>
                     )}
                 </>
@@ -184,9 +194,9 @@ const FlightCard: React.FC<FlightCardProps> = ({
             {/* Booking and search actions */}
             <div className="TODO-style-flight-card-actions">
                 <div>
-                    {(flight as FlightData).bookingLink && (
+                    {(flight.bookingUrl || flight.bookingLink) && (
                         <a
-                            href={(flight as FlightData).bookingLink}
+                            href={flight.bookingUrl || flight.bookingLink}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="TODO-style-flight-card-booking-link"
