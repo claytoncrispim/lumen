@@ -118,7 +118,7 @@ class EngineApiTest(TestCase):
 			travel_alerts="",
 		)
 
-		response = self.client.get("/api/locations/resolve/query=new-york/")
+		response = self.client.get("/api/locations/resolve/?query=new-york")
 		self.assertEqual(response.status_code, 200)
 
 		payload = response.json()

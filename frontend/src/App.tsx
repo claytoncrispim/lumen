@@ -179,7 +179,7 @@ const resolveLocation = async (query: string) => {
   if (!trimmedQuery) return null;
 
   const res = await fetchWithRetry(
-    buildApiUrl(`/api/locations/resolve/query=${encodeURIComponent(trimmedQuery)}/`)
+    buildApiUrl(`/api/locations/resolve/?query=${encodeURIComponent(trimmedQuery)}`)
   );
 
   const data = await res.json();

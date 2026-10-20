@@ -258,8 +258,9 @@ def location_detail(request, city_name):
 
 
 @require_GET
-def location_airport_resolve(request, query):
-    raw_query = (query or "").strip()
+def location_airport_resolve(request, query=None):
+    request_query = request.GET.get("query", "")
+    raw_query = (query or request_query or "").strip()
     if not raw_query:
         return JsonResponse({"error": "QUERY_REQUIRED", "message": "A destination query is required."}, status=400)
 
